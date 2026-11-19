@@ -1,0 +1,601 @@
+admission_id,patient_id,patient_age,gender,department_id,department_name,diagnosis,admission_type,admission_date,discharge_date,length_of_stay_days,ward_type,insurance_type,total_bill_inr,outcome,readmitted_30d
+ADM0001,P10000,21,Female,D05,Neurology,Neuropathy,Emergency,2026-01-04,2026-01-30,26,General,Private Insurance,5059,Recovered,N
+ADM0002,P10001,65,Male,D06,Obstetrics & Gynaecology,Pregnancy Complication,Emergency,2026-01-22,2026-01-23,1,Private,Self-Pay,282994,Recovered,N
+ADM0003,P10002,61,Female,D02,Cardiology,Heart Failure,Referral,2026-01-01,2026-01-09,8,Semi-Private,Aarogyasri,75045,Recovered,N
+ADM0004,P10003,76,Male,D04,Pediatrics,Bronchiolitis,Emergency,2026-01-17,2026-01-21,4,General,Aarogyasri,25992,Improved,N
+ADM0005,P10004,52,Female,D03,Orthopedics,Road Traffic Injury,Emergency,2026-01-16,2026-01-22,6,ICU,Govt. Employee Scheme,34640,Recovered,N
+ADM0006,P10005,24,Female,D06,Obstetrics & Gynaecology,Caesarean Section,Emergency,2026-01-15,2026-01-17,2,General,Self-Pay,27894,Recovered,N
+ADM0007,P10006,61,Female,D01,General Medicine,Viral Fever,Elective,2026-01-31,2026-02-07,7,General,Aarogyasri,17080,Recovered,N
+ADM0008,P10007,61,Female,D01,General Medicine,Dengue Fever,Emergency,2026-01-30,2026-02-05,6,Semi-Private,Aarogyasri,74485,Recovered,N
+ADM0009,P10008,37,Male,D03,Orthopedics,Fracture of Femur,Elective,2026-01-18,2026-01-24,6,General,Private Insurance,29468,Improved,N
+ADM0010,P10009,86,Male,D02,Cardiology,Coronary Artery Disease,Emergency,2026-01-01,2026-01-07,6,Private,Aarogyasri,30908,Improved,N
+ADM0011,P10010,34,Male,D05,Neurology,Stroke,Emergency,2026-01-20,2026-01-21,1,General,Private Insurance,35929,Recovered,N
+ADM0012,P10011,39,Male,D04,Pediatrics,Gastroenteritis,Elective,2026-01-02,2026-01-06,4,General,Private Insurance,64275,Improved,N
+ADM0013,P10012,12,Female,D05,Neurology,Stroke,Emergency,2026-01-06,2026-01-12,6,Private,Private Insurance,45321,Improved,N
+ADM0014,P10013,60,Female,D03,Orthopedics,Road Traffic Injury,Emergency,2026-01-15,2026-01-20,5,Semi-Private,Private Insurance,33106,Improved,N
+ADM0015,P10014,17,Male,D04,Pediatrics,Neonatal Jaundice,Emergency,2026-01-22,2026-01-25,3,ICU,Private Insurance,51097,LAMA,N
+ADM0016,P10015,60,Female,D04,Pediatrics,Pediatric Pneumonia,Referral,2026-01-10,2026-01-11,1,Semi-Private,Aarogyasri,46124,Recovered,N
+ADM0017,P10016,76,Female,D03,Orthopedics,Osteoarthritis,Emergency,2026-01-30,2026-02-06,7,General,Aarogyasri,64040,Recovered,N
+ADM0018,P10017,19,Female,D06,Obstetrics & Gynaecology,Pregnancy Complication,Emergency,2026-01-30,2026-02-01,2,Semi-Private,Self-Pay,91756,Recovered,N
+ADM0019,P10018,16,Male,D01,General Medicine,Dengue Fever,Emergency,2026-01-11,2026-01-16,5,General,Govt. Employee Scheme,51657,Recovered,N
+ADM0020,P10019,45,Female,D04,Pediatrics,Pediatric Pneumonia,Emergency,2026-01-25,2026-01-31,6,Private,Self-Pay,77762,Recovered,N
+ADM0021,P10020,60,Female,D03,Orthopedics,Osteoarthritis,Elective,2026-01-05,2026-01-07,2,Private,Govt. Employee Scheme,37641,Recovered,N
+ADM0022,P10021,29,Male,D04,Pediatrics,Bronchiolitis,Emergency,2026-01-28,2026-02-05,8,General,Self-Pay,101097,Recovered,N
+ADM0023,P10022,53,Male,D01,General Medicine,Diabetes Mellitus,Referral,2026-01-14,2026-01-19,5,General,Self-Pay,12405,Deceased,N
+ADM0024,P10023,68,Male,D06,Obstetrics & Gynaecology,Normal Vaginal Delivery,Emergency,2026-01-23,2026-01-28,5,Private,Private Insurance,59267,Recovered,N
+ADM0025,P10024,9,Female,D01,General Medicine,Hypertension,Emergency,2026-01-22,2026-01-23,1,Private,Self-Pay,65397,Improved,N
+ADM0026,P10025,40,Male,D06,Obstetrics & Gynaecology,Normal Vaginal Delivery,Emergency,2026-01-25,2026-01-26,1,General,Govt. Employee Scheme,49668,Improved,N
+ADM0027,P10026,33,Female,D01,General Medicine,Hypertension,Emergency,2026-01-20,2026-01-29,9,Semi-Private,Private Insurance,72012,Recovered,N
+ADM0028,P10027,20,Male,D03,Orthopedics,Back Pain,Emergency,2026-01-19,2026-01-26,7,Semi-Private,Aarogyasri,74643,Recovered,N
+ADM0029,P10028,29,Female,D01,General Medicine,Viral Fever,Emergency,2026-01-26,2026-01-31,5,General,Private Insurance,20446,Improved,N
+ADM0030,P10029,47,Male,D04,Pediatrics,Neonatal Jaundice,Referral,2026-01-15,2026-01-25,10,General,Aarogyasri,87054,Improved,N
+ADM0031,P10030,38,Female,D04,Pediatrics,Pediatric Pneumonia,Emergency,2026-01-11,2026-01-14,3,General,Self-Pay,48052,Improved,N
+ADM0032,P10031,40,Female,D03,Orthopedics,Fracture of Radius/Ulna,Elective,2026-01-20,2026-01-24,4,Private,Govt. Employee Scheme,101635,Improved,Y
+ADM0033,P10032,22,Male,D02,Cardiology,Acute Myocardial Infarction,Emergency,2026-01-23,2026-01-30,7,Private,Govt. Employee Scheme,88289,Recovered,Y
+ADM0034,P10033,47,Female,D01,General Medicine,Viral Fever,Referral,2026-01-31,2026-02-08,8,General,Govt. Employee Scheme,37781,Recovered,N
+ADM0035,P10034,46,Female,D02,Cardiology,Arrhythmia,Emergency,2026-01-01,2026-01-02,1,ICU,Aarogyasri,99601,Referred,N
+ADM0036,P10035,20,Female,D05,Neurology,Epilepsy,Emergency,2026-01-25,2026-01-28,3,Semi-Private,Self-Pay,89205,Recovered,N
+ADM0037,P10036,47,Male,D01,General Medicine,Viral Fever,Emergency,2026-01-04,2026-01-10,6,Private,Private Insurance,42918,Referred,N
+ADM0038,P10037,57,Male,D04,Pediatrics,Bronchiolitis,Emergency,2026-01-11,2026-01-13,2,General,Self-Pay,46748,Recovered,N
+ADM0039,P10038,16,Male,D02,Cardiology,Heart Failure,Emergency,2026-01-06,2026-01-14,8,ICU,Private Insurance,86574,Recovered,N
+ADM0040,P10039,6,Male,D01,General Medicine,Diabetes Mellitus,Elective,2026-01-17,2026-01-19,2,General,Private Insurance,73715,Improved,Y
+ADM0041,P10040,39,Female,D03,Orthopedics,Osteoarthritis,Referral,2026-01-17,2026-01-25,8,Private,Private Insurance,62604,Recovered,N
+ADM0042,P10041,42,Male,D05,Neurology,Stroke,Emergency,2026-01-21,2026-01-24,3,General,Private Insurance,61831,Recovered,N
+ADM0043,P10042,38,Female,D04,Pediatrics,Bronchiolitis,Emergency,2026-02-14,2026-02-20,6,Semi-Private,Self-Pay,38081,Recovered,N
+ADM0044,P10043,37,Female,D02,Cardiology,Acute Myocardial Infarction,Referral,2026-02-08,2026-02-14,6,Semi-Private,Aarogyasri,79508,Recovered,N
+ADM0045,P10044,56,Female,D04,Pediatrics,Febrile Seizure,Emergency,2026-02-10,2026-02-19,9,General,Private Insurance,40067,Improved,N
+ADM0046,P10045,60,Male,D03,Orthopedics,Osteoarthritis,Emergency,2026-02-04,2026-02-10,6,General,Govt. Employee Scheme,71429,Improved,N
+ADM0047,P10046,19,Male,D04,Pediatrics,Pediatric Pneumonia,Emergency,2026-02-17,2026-02-25,8,General,Aarogyasri,38647,Recovered,Y
+ADM0048,P10047,64,Male,D06,Obstetrics & Gynaecology,Normal Vaginal Delivery,Emergency,2026-02-15,2026-02-19,4,Semi-Private,Self-Pay,63298,Recovered,N
+ADM0049,P10048,21,Male,D04,Pediatrics,Bronchiolitis,Emergency,2026-02-18,2026-02-25,7,Private,Private Insurance,44916,Recovered,Y
+ADM0050,P10049,57,Male,D01,General Medicine,Pneumonia,Emergency,2026-02-06,2026-02-14,8,Private,Aarogyasri,14543,Improved,N
+ADM0051,P10050,27,Male,D04,Pediatrics,Febrile Seizure,Emergency,2026-02-07,2026-02-08,1,Semi-Private,Self-Pay,81634,Improved,N
+ADM0052,P10051,35,Male,D04,Pediatrics,Gastroenteritis,Emergency,2026-02-19,2026-02-27,8,Private,Govt. Employee Scheme,91596,Referred,N
+ADM0053,P10052,2,Male,D04,Pediatrics,Gastroenteritis,Elective,2026-02-18,2026-02-23,5,General,Self-Pay,54527,Recovered,N
+ADM0054,P10053,42,Female,D03,Orthopedics,Fracture of Radius/Ulna,Emergency,2026-02-16,2026-02-18,2,Semi-Private,Aarogyasri,43068,Recovered,N
+ADM0055,P10054,62,Male,D04,Pediatrics,Bronchiolitis,Emergency,2026-02-08,2026-02-11,3,General,Private Insurance,41805,Improved,N
+ADM0056,P10055,4,Female,D02,Cardiology,Heart Failure,Emergency,2026-02-06,2026-02-12,6,Private,Self-Pay,29734,Recovered,N
+ADM0057,P10056,72,Female,D05,Neurology,Epilepsy,Elective,2026-02-15,2026-02-20,5,General,Private Insurance,63797,Improved,N
+ADM0058,P10057,46,Female,D04,Pediatrics,Febrile Seizure,Emergency,2026-02-27,2026-03-05,6,Private,Self-Pay,65483,Improved,N
+ADM0059,P10058,57,Female,D01,General Medicine,Viral Fever,Emergency,2026-02-18,2026-02-23,5,Semi-Private,Self-Pay,40610,Improved,N
+ADM0060,P10059,55,Male,D03,Orthopedics,Fracture of Radius/Ulna,Emergency,2026-02-22,2026-02-28,6,Semi-Private,Private Insurance,107501,Improved,N
+ADM0061,P10060,51,Male,D06,Obstetrics & Gynaecology,Normal Vaginal Delivery,Elective,2026-02-17,2026-02-24,7,Semi-Private,Aarogyasri,46982,Recovered,N
+ADM0062,P10061,46,Female,D02,Cardiology,Coronary Artery Disease,Emergency,2026-02-28,2026-03-04,4,Private,Self-Pay,23303,Recovered,N
+ADM0063,P10062,21,Male,D05,Neurology,Migraine,Referral,2026-02-15,2026-02-23,8,Semi-Private,Self-Pay,69247,Recovered,N
+ADM0064,P10063,12,Male,D06,Obstetrics & Gynaecology,Pregnancy Complication,Emergency,2026-02-27,2026-03-03,4,ICU,Private Insurance,70520,Recovered,N
+ADM0065,P10064,32,Male,D06,Obstetrics & Gynaecology,Pregnancy Complication,Elective,2026-02-01,2026-02-08,7,Semi-Private,Self-Pay,86437,Recovered,N
+ADM0066,P10065,37,Female,D02,Cardiology,Arrhythmia,Elective,2026-02-12,2026-02-18,6,Semi-Private,Self-Pay,98066,Improved,N
+ADM0067,P10066,14,Female,D01,General Medicine,Hypertension,Emergency,2026-02-09,2026-02-14,5,General,Self-Pay,59157,Recovered,N
+ADM0068,P10067,10,Male,D04,Pediatrics,Neonatal Jaundice,Emergency,2026-02-24,2026-03-04,8,Private,Self-Pay,88603,Improved,N
+ADM0069,P10068,65,Female,D03,Orthopedics,Back Pain,Referral,2026-02-21,2026-02-28,7,General,Aarogyasri,60639,Recovered,N
+ADM0070,P10069,69,Female,D02,Cardiology,Heart Failure,Emergency,2026-02-26,2026-02-28,2,Semi-Private,Self-Pay,44291,Improved,N
+ADM0071,P10070,1,Female,D06,Obstetrics & Gynaecology,Caesarean Section,Elective,2026-02-23,2026-02-25,2,General,Private Insurance,97945,Recovered,N
+ADM0072,P10071,77,Female,D03,Orthopedics,Fracture of Femur,Elective,2026-02-04,2026-02-06,2,General,Aarogyasri,73602,Improved,N
+ADM0073,P10072,49,Male,D03,Orthopedics,Road Traffic Injury,Elective,2026-02-27,2026-03-02,3,General,Aarogyasri,77651,Recovered,N
+ADM0074,P10073,83,Female,D02,Cardiology,Heart Failure,Emergency,2026-02-26,2026-03-02,4,General,Aarogyasri,48680,Recovered,N
+ADM0075,P10074,20,Male,D01,General Medicine,Pneumonia,Emergency,2026-02-15,2026-02-20,5,General,Aarogyasri,96239,Recovered,N
+ADM0076,P10075,46,Female,D06,Obstetrics & Gynaecology,PCOD,Referral,2026-02-18,2026-02-26,8,General,Private Insurance,38328,Recovered,N
+ADM0077,P10076,68,Male,D04,Pediatrics,Neonatal Jaundice,Emergency,2026-02-21,2026-02-22,1,General,Govt. Employee Scheme,64543,Recovered,N
+ADM0078,P10077,26,Female,D01,General Medicine,Pneumonia,Emergency,2026-02-23,2026-02-24,1,General,Aarogyasri,62017,Recovered,N
+ADM0079,P10078,5,Female,D03,Orthopedics,Road Traffic Injury,Referral,2026-02-07,2026-02-11,4,Private,Aarogyasri,90472,Improved,N
+ADM0080,P10079,38,Female,D03,Orthopedics,Osteoarthritis,Emergency,2026-02-16,2026-02-19,3,Semi-Private,Aarogyasri,12725,Improved,N
+ADM0081,P10080,55,Female,D02,Cardiology,Acute Myocardial Infarction,Emergency,2026-03-02,2026-03-06,4,General,Private Insurance,41472,LAMA,N
+ADM0082,P10081,34,Male,D04,Pediatrics,Pediatric Pneumonia,Emergency,2026-03-22,2026-03-28,6,Private,Self-Pay,47506,Referred,N
+ADM0083,P10082,46,Female,D04,Pediatrics,Bronchiolitis,Emergency,2026-03-14,2026-03-19,5,Private,Govt. Employee Scheme,63344,Recovered,N
+ADM0084,P10083,82,Female,D01,General Medicine,Hypertension,Elective,2026-03-24,2026-03-25,1,General,Aarogyasri,58033,Recovered,N
+ADM0085,P10084,52,Female,D04,Pediatrics,Bronchiolitis,Elective,2026-03-09,2026-03-14,5,ICU,Self-Pay,26974,Recovered,N
+ADM0086,P10085,60,Female,D04,Pediatrics,Neonatal Jaundice,Emergency,2026-03-19,2026-03-22,3,ICU,Aarogyasri,44916,Recovered,N
+ADM0087,P10086,2,Male,D02,Cardiology,Arrhythmia,Emergency,2026-03-31,2026-04-03,3,Semi-Private,Govt. Employee Scheme,22444,Deceased,Y
+ADM0088,P10087,46,Male,D06,Obstetrics & Gynaecology,Pregnancy Complication,Emergency,2026-03-01,2026-03-03,2,General,Self-Pay,91000,Improved,N
+ADM0089,P10088,30,Male,D06,Obstetrics & Gynaecology,PCOD,Emergency,2026-03-23,2026-03-25,2,General,Self-Pay,41494,Improved,Y
+ADM0090,P10089,18,Female,D01,General Medicine,Hypertension,Emergency,2026-03-10,2026-03-20,10,General,Aarogyasri,48368,Recovered,N
+ADM0091,P10090,68,Female,D04,Pediatrics,Febrile Seizure,Emergency,2026-03-02,2026-03-08,6,ICU,Private Insurance,42711,Recovered,N
+ADM0092,P10091,67,Female,D06,Obstetrics & Gynaecology,PCOD,Emergency,2026-03-07,2026-03-10,3,Semi-Private,Govt. Employee Scheme,32739,Recovered,N
+ADM0093,P10092,18,Female,D01,General Medicine,Hypertension,Emergency,2026-03-20,2026-03-25,5,General,Self-Pay,75318,Recovered,N
+ADM0094,P10093,46,Male,D04,Pediatrics,Pediatric Pneumonia,Emergency,2026-03-05,2026-03-08,3,Semi-Private,Self-Pay,68307,Improved,N
+ADM0095,P10094,45,Male,D06,Obstetrics & Gynaecology,Pregnancy Complication,Emergency,2026-03-26,2026-03-31,5,General,Private Insurance,43546,Recovered,N
+ADM0096,P10095,0,Male,D01,General Medicine,Dengue Fever,Emergency,2026-03-08,2026-03-17,9,General,Private Insurance,20791,LAMA,N
+ADM0097,P10096,38,Female,D06,Obstetrics & Gynaecology,Normal Vaginal Delivery,Emergency,2026-03-27,2026-04-01,5,General,Aarogyasri,33378,Improved,N
+ADM0098,P10097,6,Male,D04,Pediatrics,Neonatal Jaundice,Emergency,2026-03-02,2026-03-12,10,General,Self-Pay,47953,Recovered,N
+ADM0099,P10098,48,Female,D02,Cardiology,Heart Failure,Elective,2026-03-23,2026-03-26,3,General,Aarogyasri,52437,Improved,N
+ADM0100,P10099,16,Male,D02,Cardiology,Acute Myocardial Infarction,Elective,2026-03-26,2026-04-01,6,General,Self-Pay,29529,Recovered,N
+ADM0101,P10100,31,Male,D03,Orthopedics,Road Traffic Injury,Emergency,2026-03-02,2026-03-03,1,General,Aarogyasri,28281,Recovered,N
+ADM0102,P10101,43,Male,D01,General Medicine,Diabetes Mellitus,Emergency,2026-03-06,2026-03-08,2,Semi-Private,Private Insurance,62865,LAMA,Y
+ADM0103,P10102,30,Male,D03,Orthopedics,Back Pain,Emergency,2026-03-17,2026-03-21,4,Private,Aarogyasri,78436,Improved,N
+ADM0104,P10103,52,Female,D02,Cardiology,Coronary Artery Disease,Emergency,2026-03-07,2026-03-13,6,Semi-Private,Private Insurance,52601,Recovered,N
+ADM0105,P10104,20,Female,D03,Orthopedics,Fracture of Femur,Emergency,2026-03-05,2026-03-10,5,Semi-Private,Aarogyasri,76214,Improved,N
+ADM0106,P10105,18,Female,D06,Obstetrics & Gynaecology,Normal Vaginal Delivery,Referral,2026-03-13,2026-03-14,1,General,Aarogyasri,43840,Recovered,N
+ADM0107,P10106,30,Male,D02,Cardiology,Heart Failure,Emergency,2026-03-30,2026-04-05,6,General,Govt. Employee Scheme,35875,Recovered,N
+ADM0108,P10107,22,Female,D05,Neurology,Stroke,Referral,2026-03-01,2026-03-08,7,Semi-Private,Private Insurance,44589,Recovered,N
+ADM0109,P10108,1,Female,D01,General Medicine,Dengue Fever,Emergency,2026-03-17,2026-03-21,4,General,Govt. Employee Scheme,85809,Recovered,N
+ADM0110,P10109,4,Male,D03,Orthopedics,Road Traffic Injury,Emergency,2026-03-01,2026-03-09,8,Semi-Private,Self-Pay,70619,Recovered,N
+ADM0111,P10110,56,Male,D03,Orthopedics,Osteoarthritis,Emergency,2026-03-20,2026-03-24,4,ICU,Self-Pay,67544,Recovered,N
+ADM0112,P10111,66,Female,D03,Orthopedics,Back Pain,Emergency,2026-03-13,2026-03-18,5,Semi-Private,Aarogyasri,48291,Recovered,N
+ADM0113,P10112,62,Male,D01,General Medicine,Hypertension,Emergency,2026-03-10,2026-03-11,1,Semi-Private,Self-Pay,24541,Improved,N
+ADM0114,P10113,23,Male,D02,Cardiology,Heart Failure,Emergency,2026-03-13,2026-03-20,7,General,Aarogyasri,53682,Recovered,N
+ADM0115,P10114,59,Male,D02,Cardiology,Acute Myocardial Infarction,Elective,2026-03-22,2026-03-29,7,General,Private Insurance,76544,Recovered,N
+ADM0116,P10115,19,Male,D01,General Medicine,Pneumonia,Referral,2026-03-07,2026-03-15,8,General,Govt. Employee Scheme,95065,Recovered,N
+ADM0117,P10116,40,Female,D04,Pediatrics,Febrile Seizure,Referral,2026-03-21,2026-03-23,2,Semi-Private,Private Insurance,41208,Improved,N
+ADM0118,P10117,54,Female,D04,Pediatrics,Bronchiolitis,Emergency,2026-03-14,2026-03-15,1,General,Govt. Employee Scheme,59219,Recovered,N
+ADM0119,P10118,29,Male,D06,Obstetrics & Gynaecology,Pregnancy Complication,Emergency,2026-03-31,2026-04-07,7,Semi-Private,Self-Pay,32513,Recovered,N
+ADM0120,P10119,42,Male,D03,Orthopedics,Fracture of Radius/Ulna,Emergency,2026-03-24,2026-04-01,8,Private,Self-Pay,44168,Recovered,N
+ADM0121,P10120,69,Male,D05,Neurology,Migraine,Elective,2026-03-08,2026-03-13,5,General,Private Insurance,44802,Recovered,N
+ADM0122,P10121,52,Female,D03,Orthopedics,Fracture of Femur,Emergency,2026-03-11,2026-03-15,4,Semi-Private,Aarogyasri,70687,Referred,N
+ADM0123,P10122,24,Male,D01,General Medicine,Pneumonia,Referral,2026-03-03,2026-03-11,8,Private,Self-Pay,57569,Recovered,N
+ADM0124,P10123,27,Male,D02,Cardiology,Heart Failure,Emergency,2026-03-21,2026-03-23,2,General,Self-Pay,73132,Recovered,N
+ADM0125,P10124,36,Female,D01,General Medicine,Pneumonia,Emergency,2026-04-26,2026-04-30,4,General,Aarogyasri,53142,Referred,N
+ADM0126,P10125,64,Female,D02,Cardiology,Heart Failure,Elective,2026-04-14,2026-04-16,2,Semi-Private,Private Insurance,55863,Recovered,N
+ADM0127,P10126,16,Male,D03,Orthopedics,Fracture of Femur,Elective,2026-04-30,2026-05-05,5,Semi-Private,Self-Pay,83535,Improved,Y
+ADM0128,P10127,68,Female,D03,Orthopedics,Road Traffic Injury,Emergency,2026-04-06,2026-04-15,9,Private,Aarogyasri,87843,Improved,N
+ADM0129,P10128,31,Female,D02,Cardiology,Acute Myocardial Infarction,Emergency,2026-04-21,2026-04-30,9,General,Aarogyasri,89740,Recovered,N
+ADM0130,P10129,27,Female,D04,Pediatrics,Bronchiolitis,Emergency,2026-04-13,2026-04-18,5,Semi-Private,Aarogyasri,11713,Recovered,Y
+ADM0131,P10130,4,Male,D04,Pediatrics,Gastroenteritis,Emergency,2026-04-06,2026-04-14,8,General,Private Insurance,54273,Recovered,N
+ADM0132,P10131,58,Male,D04,Pediatrics,Febrile Seizure,Emergency,2026-04-19,2026-04-28,9,General,Aarogyasri,26246,Recovered,N
+ADM0133,P10132,36,Female,D06,Obstetrics & Gynaecology,PCOD,Emergency,2026-04-11,2026-04-17,6,Semi-Private,Private Insurance,81269,Recovered,N
+ADM0134,P10133,22,Male,D06,Obstetrics & Gynaecology,PCOD,Elective,2026-04-06,2026-04-11,5,General,Self-Pay,21789,Improved,N
+ADM0135,P10134,64,Female,D04,Pediatrics,Gastroenteritis,Emergency,2026-04-19,2026-04-22,3,ICU,Aarogyasri,62099,Recovered,N
+ADM0136,P10135,17,Female,D06,Obstetrics & Gynaecology,Normal Vaginal Delivery,Elective,2026-04-10,2026-04-18,8,General,Aarogyasri,44618,Recovered,N
+ADM0137,P10136,10,Female,D02,Cardiology,Coronary Artery Disease,Emergency,2026-04-10,2026-04-11,1,Semi-Private,Aarogyasri,26355,Improved,N
+ADM0138,P10137,36,Male,D01,General Medicine,Diabetes Mellitus,Emergency,2026-04-18,2026-04-21,3,Private,Govt. Employee Scheme,70452,Recovered,N
+ADM0139,P10138,46,Male,D06,Obstetrics & Gynaecology,PCOD,Emergency,2026-04-11,2026-04-14,3,General,Self-Pay,58545,Recovered,Y
+ADM0140,P10139,63,Female,D05,Neurology,Neuropathy,Emergency,2026-04-19,2026-04-20,1,Semi-Private,Self-Pay,90880,Recovered,N
+ADM0141,P10140,35,Female,D03,Orthopedics,Road Traffic Injury,Emergency,2026-04-12,2026-04-15,3,Semi-Private,Private Insurance,46883,Improved,N
+ADM0142,P10141,16,Male,D01,General Medicine,Dengue Fever,Referral,2026-04-28,2026-05-02,4,Private,Self-Pay,73087,Improved,N
+ADM0143,P10142,67,Male,D01,General Medicine,Pneumonia,Emergency,2026-04-15,2026-04-18,3,Semi-Private,Govt. Employee Scheme,82683,Improved,N
+ADM0144,P10143,69,Male,D01,General Medicine,Pneumonia,Emergency,2026-04-22,2026-04-28,6,Private,Aarogyasri,86702,Recovered,N
+ADM0145,P10144,32,Female,D06,Obstetrics & Gynaecology,Pregnancy Complication,Emergency,2026-04-19,2026-04-24,5,General,Govt. Employee Scheme,82286,Recovered,N
+ADM0146,P10145,52,Male,D04,Pediatrics,Bronchiolitis,Emergency,2026-04-04,2026-04-06,2,Private,Private Insurance,19934,Improved,N
+ADM0147,P10146,53,Male,D04,Pediatrics,Gastroenteritis,Elective,2026-04-16,2026-04-24,8,Semi-Private,Self-Pay,30475,Recovered,N
+ADM0148,P10147,33,Male,D01,General Medicine,Hypertension,Emergency,2026-04-19,2026-04-22,3,General,Self-Pay,26169,Recovered,N
+ADM0149,P10148,89,Male,D06,Obstetrics & Gynaecology,PCOD,Referral,2026-04-29,2026-05-02,3,General,Private Insurance,81621,Recovered,N
+ADM0150,P10149,1,Female,D06,Obstetrics & Gynaecology,Pregnancy Complication,Emergency,2026-04-10,2026-04-17,7,General,Self-Pay,33258,Improved,N
+ADM0151,P10150,24,Female,D06,Obstetrics & Gynaecology,Caesarean Section,Emergency,2026-04-16,2026-04-22,6,General,Self-Pay,22065,Improved,N
+ADM0152,P10151,35,Male,D04,Pediatrics,Pediatric Pneumonia,Emergency,2026-04-27,2026-05-03,6,General,Self-Pay,33655,Recovered,N
+ADM0153,P10152,81,Male,D02,Cardiology,Arrhythmia,Elective,2026-04-16,2026-04-24,8,Private,Aarogyasri,75079,Recovered,N
+ADM0154,P10153,10,Female,D04,Pediatrics,Pediatric Pneumonia,Elective,2026-04-21,2026-04-25,4,Semi-Private,Aarogyasri,33024,Recovered,N
+ADM0155,P10154,53,Male,D02,Cardiology,Acute Myocardial Infarction,Emergency,2026-04-15,2026-04-24,9,General,Self-Pay,45689,Recovered,N
+ADM0156,P10155,59,Female,D03,Orthopedics,Osteoarthritis,Emergency,2026-04-19,2026-04-22,3,General,Aarogyasri,104121,Recovered,Y
+ADM0157,P10156,60,Male,D01,General Medicine,Diabetes Mellitus,Referral,2026-04-15,2026-04-21,6,Private,Aarogyasri,59802,Recovered,N
+ADM0158,P10157,9,Female,D03,Orthopedics,Fracture of Femur,Emergency,2026-04-16,2026-04-20,4,General,Self-Pay,33244,Referred,N
+ADM0159,P10158,54,Female,D04,Pediatrics,Febrile Seizure,Emergency,2026-04-29,2026-05-08,9,ICU,Aarogyasri,67042,Recovered,N
+ADM0160,P10159,70,Male,D02,Cardiology,Arrhythmia,Emergency,2026-04-13,2026-04-22,9,General,Private Insurance,90103,Recovered,N
+ADM0161,P10160,80,Female,D03,Orthopedics,Osteoarthritis,Emergency,2026-04-22,2026-04-27,5,General,Aarogyasri,95600,Recovered,N
+ADM0162,P10161,20,Male,D01,General Medicine,Diabetes Mellitus,Emergency,2026-04-09,2026-04-16,7,ICU,Private Insurance,28172,Referred,N
+ADM0163,P10162,60,Male,D01,General Medicine,Viral Fever,Elective,2026-04-06,2026-04-15,9,Semi-Private,Aarogyasri,56140,Improved,N
+ADM0164,P10163,32,Male,D03,Orthopedics,Osteoarthritis,Emergency,2026-04-20,2026-04-21,1,Private,Private Insurance,36159,Recovered,N
+ADM0165,P10164,10,Male,D04,Pediatrics,Pediatric Pneumonia,Emergency,2026-04-24,2026-04-27,3,Semi-Private,Self-Pay,84098,Improved,N
+ADM0166,P10165,25,Male,D05,Neurology,Neuropathy,Emergency,2026-04-06,2026-04-11,5,Semi-Private,Aarogyasri,62207,Recovered,Y
+ADM0167,P10166,38,Female,D04,Pediatrics,Neonatal Jaundice,Emergency,2026-04-03,2026-04-06,3,General,Govt. Employee Scheme,83998,Recovered,N
+ADM0168,P10167,10,Female,D04,Pediatrics,Pediatric Pneumonia,Elective,2026-04-23,2026-04-26,3,Semi-Private,Aarogyasri,61585,Improved,N
+ADM0169,P10168,48,Male,D04,Pediatrics,Neonatal Jaundice,Emergency,2026-04-03,2026-04-10,7,Private,Self-Pay,80781,Recovered,N
+ADM0170,P10169,8,Male,D01,General Medicine,Viral Fever,Emergency,2026-04-04,2026-04-07,3,Private,Aarogyasri,36041,Recovered,N
+ADM0171,P10170,75,Male,D01,General Medicine,Diabetes Mellitus,Emergency,2026-04-26,2026-05-05,9,General,Aarogyasri,85426,Improved,N
+ADM0172,P10171,19,Male,D01,General Medicine,Dengue Fever,Elective,2026-05-04,2026-05-06,2,Semi-Private,Govt. Employee Scheme,33357,Referred,N
+ADM0173,P10172,61,Male,D03,Orthopedics,Fracture of Radius/Ulna,Elective,2026-05-02,2026-05-06,4,Private,Aarogyasri,96650,Improved,N
+ADM0174,P10173,2,Male,D01,General Medicine,Hypertension,Emergency,2026-05-12,2026-05-16,4,Semi-Private,Private Insurance,49567,Recovered,N
+ADM0175,P10174,0,Female,D01,General Medicine,Diabetes Mellitus,Emergency,2026-05-10,2026-05-14,4,General,Aarogyasri,19030,Recovered,N
+ADM0176,P10175,5,Male,D05,Neurology,Stroke,Emergency,2026-05-23,2026-05-29,6,General,Self-Pay,99172,Improved,N
+ADM0177,P10176,9,Male,D05,Neurology,Migraine,Emergency,2026-05-05,2026-05-13,8,General,Self-Pay,60234,Recovered,N
+ADM0178,P10177,60,Female,D06,Obstetrics & Gynaecology,Caesarean Section,Emergency,2026-05-22,2026-05-23,1,General,Self-Pay,99582,Recovered,N
+ADM0179,P10178,5,Female,D01,General Medicine,Diabetes Mellitus,Referral,2026-05-16,2026-05-23,7,ICU,Private Insurance,47152,Recovered,N
+ADM0180,P10179,16,Male,D04,Pediatrics,Pediatric Pneumonia,Emergency,2026-05-09,2026-05-12,3,General,Self-Pay,14916,Recovered,N
+ADM0181,P10180,73,Male,D01,General Medicine,Viral Fever,Emergency,2026-05-14,2026-05-19,5,Semi-Private,Aarogyasri,54762,Recovered,N
+ADM0182,P10181,36,Female,D05,Neurology,Neuropathy,Emergency,2026-05-27,2026-05-31,4,ICU,Self-Pay,71338,Recovered,N
+ADM0183,P10182,3,Male,D01,General Medicine,Hypertension,Elective,2026-05-27,2026-06-02,6,General,Aarogyasri,48225,Recovered,N
+ADM0184,P10183,32,Male,D01,General Medicine,Viral Fever,Emergency,2026-05-15,2026-05-19,4,Semi-Private,Aarogyasri,62964,Recovered,N
+ADM0185,P10184,16,Male,D03,Orthopedics,Fracture of Femur,Emergency,2026-05-03,2026-05-11,8,Private,Private Insurance,18013,Improved,N
+ADM0186,P10185,44,Female,D03,Orthopedics,Road Traffic Injury,Elective,2026-05-08,2026-05-12,4,General,Private Insurance,99825,Recovered,N
+ADM0187,P10186,65,Male,D04,Pediatrics,Febrile Seizure,Emergency,2026-05-13,2026-05-21,8,Private,Aarogyasri,76411,LAMA,N
+ADM0188,P10187,56,Male,D02,Cardiology,Heart Failure,Referral,2026-05-10,2026-05-18,8,ICU,Aarogyasri,66223,Recovered,N
+ADM0189,P10188,63,Female,D05,Neurology,Neuropathy,Emergency,2026-05-25,2026-06-03,9,Semi-Private,Govt. Employee Scheme,15033,Improved,N
+ADM0190,P10189,34,Male,D01,General Medicine,Diabetes Mellitus,Emergency,2026-05-06,2026-05-12,6,General,Self-Pay,81495,Improved,N
+ADM0191,P10190,7,Female,D02,Cardiology,Heart Failure,Referral,2026-05-07,2026-05-15,8,Private,Aarogyasri,28190,Improved,N
+ADM0192,P10191,42,Male,D03,Orthopedics,Fracture of Femur,Emergency,2026-05-30,2026-06-03,4,ICU,Aarogyasri,95559,Improved,N
+ADM0193,P10192,11,Male,D04,Pediatrics,Pediatric Pneumonia,Emergency,2026-05-28,2026-06-02,5,ICU,Aarogyasri,70824,Improved,N
+ADM0194,P10193,21,Female,D04,Pediatrics,Bronchiolitis,Emergency,2026-05-05,2026-05-11,6,Semi-Private,Govt. Employee Scheme,11468,Recovered,N
+ADM0195,P10194,27,Female,D01,General Medicine,Pneumonia,Emergency,2026-05-25,2026-06-03,9,General,Private Insurance,16345,Improved,N
+ADM0196,P10195,14,Male,D01,General Medicine,Hypertension,Emergency,2026-05-15,2026-05-17,2,General,Private Insurance,45120,Recovered,N
+ADM0197,P10196,44,Male,D04,Pediatrics,Bronchiolitis,Emergency,2026-05-25,2026-05-29,4,Private,Private Insurance,93732,Recovered,N
+ADM0198,P10197,35,Female,D04,Pediatrics,Neonatal Jaundice,Elective,2026-05-06,2026-05-14,8,General,Self-Pay,25356,Recovered,N
+ADM0199,P10198,25,Male,D02,Cardiology,Heart Failure,Emergency,2026-05-13,2026-05-15,2,Semi-Private,Aarogyasri,40644,Referred,Y
+ADM0200,P10199,50,Male,D01,General Medicine,Diabetes Mellitus,Emergency,2026-05-04,2026-05-07,3,Semi-Private,Self-Pay,87991,Recovered,Y
+ADM0201,P10200,55,Female,D03,Orthopedics,Fracture of Femur,Emergency,2026-05-04,2026-05-10,6,Semi-Private,Govt. Employee Scheme,67176,Improved,N
+ADM0202,P10201,91,Female,D03,Orthopedics,Osteoarthritis,Referral,2026-05-29,2026-06-01,3,Private,Self-Pay,61839,Recovered,N
+ADM0203,P10202,19,Female,D03,Orthopedics,Back Pain,Elective,2026-05-20,2026-05-27,7,Semi-Private,Aarogyasri,55168,Recovered,N
+ADM0204,P10203,8,Female,D04,Pediatrics,Febrile Seizure,Emergency,2026-05-03,2026-05-06,3,ICU,Aarogyasri,60419,Recovered,N
+ADM0205,P10204,73,Female,D06,Obstetrics & Gynaecology,Caesarean Section,Emergency,2026-05-18,2026-05-22,4,Private,Aarogyasri,18362,Recovered,N
+ADM0206,P10205,16,Female,D02,Cardiology,Heart Failure,Emergency,2026-05-09,2026-05-14,5,General,Aarogyasri,9687,Improved,N
+ADM0207,P10206,62,Male,D04,Pediatrics,Neonatal Jaundice,Emergency,2026-05-06,2026-05-13,7,Private,Aarogyasri,94526,Improved,Y
+ADM0208,P10207,65,Female,D01,General Medicine,Hypertension,Emergency,2026-05-21,2026-05-23,2,ICU,Aarogyasri,69322,Recovered,N
+ADM0209,P10208,25,Male,D05,Neurology,Neuropathy,Emergency,2026-05-20,2026-05-21,1,Private,Self-Pay,44520,Improved,N
+ADM0210,P10209,24,Male,D05,Neurology,Stroke,Elective,2026-05-04,2026-05-08,4,General,Aarogyasri,52259,Improved,N
+ADM0211,P10210,23,Male,D02,Cardiology,Coronary Artery Disease,Elective,2026-05-22,2026-05-27,5,General,Self-Pay,86807,Recovered,N
+ADM0212,P10211,64,Male,D01,General Medicine,Dengue Fever,Emergency,2026-05-02,2026-05-06,4,General,Self-Pay,17640,LAMA,N
+ADM0213,P10212,74,Female,D01,General Medicine,Dengue Fever,Elective,2026-05-27,2026-06-03,7,Semi-Private,Govt. Employee Scheme,90000,Recovered,N
+ADM0214,P10213,80,Female,D02,Cardiology,Arrhythmia,Emergency,2026-05-29,2026-06-04,6,ICU,Self-Pay,38881,Improved,N
+ADM0215,P10214,5,Female,D05,Neurology,Neuropathy,Elective,2026-05-11,2026-05-13,2,General,Self-Pay,76891,Recovered,N
+ADM0216,P10215,24,Female,D02,Cardiology,Arrhythmia,Referral,2026-06-07,2026-06-09,2,Private,Aarogyasri,33341,Recovered,N
+ADM0217,P10216,60,Female,D02,Cardiology,Arrhythmia,Emergency,2026-06-19,2026-06-22,3,ICU,Aarogyasri,6653,Recovered,N
+ADM0218,P10217,35,Male,D04,Pediatrics,Pediatric Pneumonia,Emergency,2026-06-22,2026-06-23,1,General,Aarogyasri,61879,Improved,N
+ADM0219,P10218,54,Female,D01,General Medicine,Dengue Fever,Emergency,2026-06-29,2026-07-06,7,Semi-Private,Govt. Employee Scheme,74092,Recovered,N
+ADM0220,P10219,26,Female,D01,General Medicine,Hypertension,Elective,2026-06-27,2026-07-05,8,Semi-Private,Aarogyasri,45367,Recovered,N
+ADM0221,P10220,3,Female,D06,Obstetrics & Gynaecology,PCOD,Emergency,2026-06-13,2026-06-17,4,Semi-Private,Aarogyasri,44299,Recovered,N
+ADM0222,P10221,17,Female,D01,General Medicine,Diabetes Mellitus,Emergency,2026-06-10,2026-06-14,4,Private,Self-Pay,85170,Improved,N
+ADM0223,P10222,26,Female,D03,Orthopedics,Fracture of Femur,Emergency,2026-06-19,2026-06-26,7,Private,Private Insurance,32400,Improved,N
+ADM0224,P10223,8,Female,D04,Pediatrics,Pediatric Pneumonia,Referral,2026-06-04,2026-06-07,3,General,Self-Pay,62740,Recovered,N
+ADM0225,P10224,71,Male,D02,Cardiology,Heart Failure,Emergency,2026-06-26,2026-06-30,4,General,Private Insurance,8028,Improved,N
+ADM0226,P10225,52,Female,D06,Obstetrics & Gynaecology,Pregnancy Complication,Referral,2026-06-22,2026-07-01,9,Private,Self-Pay,50505,Recovered,N
+ADM0227,P10226,24,Male,D01,General Medicine,Dengue Fever,Elective,2026-06-17,2026-06-24,7,General,Private Insurance,49798,Improved,N
+ADM0228,P10227,49,Male,D01,General Medicine,Viral Fever,Emergency,2026-06-28,2026-07-05,7,Private,Self-Pay,89923,Improved,N
+ADM0229,P10228,43,Male,D05,Neurology,Stroke,Emergency,2026-06-30,2026-07-03,3,General,Self-Pay,9995,Recovered,N
+ADM0230,P10229,16,Female,D04,Pediatrics,Neonatal Jaundice,Emergency,2026-06-25,2026-07-02,7,Semi-Private,Aarogyasri,46219,Recovered,N
+ADM0231,P10230,45,Female,D06,Obstetrics & Gynaecology,Caesarean Section,Elective,2026-06-14,2026-06-23,9,General,Self-Pay,38305,Deceased,N
+ADM0232,P10231,62,Female,D03,Orthopedics,Fracture of Femur,Emergency,2026-06-10,2026-06-18,8,General,Self-Pay,22670,Improved,N
+ADM0233,P10232,35,Male,D02,Cardiology,Coronary Artery Disease,Referral,2026-06-11,2026-06-17,6,General,Govt. Employee Scheme,46409,Improved,N
+ADM0234,P10233,55,Female,D01,General Medicine,Diabetes Mellitus,Emergency,2026-06-27,2026-06-29,2,General,Aarogyasri,83382,Recovered,N
+ADM0235,P10234,90,Female,D02,Cardiology,Arrhythmia,Emergency,2026-06-03,2026-06-06,3,General,Aarogyasri,54839,Recovered,N
+ADM0236,P10235,48,Female,D06,Obstetrics & Gynaecology,Caesarean Section,Emergency,2026-06-09,2026-06-18,9,General,Private Insurance,35620,Recovered,N
+ADM0237,P10236,74,Female,D06,Obstetrics & Gynaecology,Caesarean Section,Emergency,2026-06-20,2026-06-27,7,Semi-Private,Self-Pay,53301,Recovered,N
+ADM0238,P10237,72,Female,D06,Obstetrics & Gynaecology,Pregnancy Complication,Referral,2026-06-05,2026-06-13,8,General,Aarogyasri,29689,Recovered,N
+ADM0239,P10238,0,Male,D04,Pediatrics,Bronchiolitis,Emergency,2026-06-21,2026-06-24,3,General,Govt. Employee Scheme,73696,Recovered,N
+ADM0240,P10239,32,Male,D04,Pediatrics,Pediatric Pneumonia,Emergency,2026-06-03,2026-06-04,1,Semi-Private,Aarogyasri,25598,Improved,N
+ADM0241,P10240,68,Male,D05,Neurology,Neuropathy,Emergency,2026-06-04,2026-06-12,8,General,Aarogyasri,33953,Recovered,N
+ADM0242,P10241,47,Female,D03,Orthopedics,Osteoarthritis,Emergency,2026-06-14,2026-06-16,2,General,Self-Pay,20541,Referred,Y
+ADM0243,P10242,8,Female,D03,Orthopedics,Osteoarthritis,Emergency,2026-06-02,2026-06-09,7,Semi-Private,Govt. Employee Scheme,44017,Recovered,N
+ADM0244,P10243,33,Male,D04,Pediatrics,Febrile Seizure,Elective,2026-06-12,2026-06-16,4,Semi-Private,Aarogyasri,71497,Improved,N
+ADM0245,P10244,32,Male,D03,Orthopedics,Fracture of Femur,Referral,2026-06-27,2026-07-03,6,Semi-Private,Govt. Employee Scheme,77856,Improved,N
+ADM0246,P10245,2,Male,D06,Obstetrics & Gynaecology,Caesarean Section,Emergency,2026-06-12,2026-06-18,6,Private,Govt. Employee Scheme,103469,Improved,N
+ADM0247,P10246,70,Male,D02,Cardiology,Acute Myocardial Infarction,Emergency,2026-06-07,2026-06-13,6,General,Aarogyasri,53823,Recovered,N
+ADM0248,P10247,26,Male,D04,Pediatrics,Neonatal Jaundice,Emergency,2026-06-26,2026-07-02,6,General,Private Insurance,33182,Recovered,Y
+ADM0249,P10248,92,Male,D01,General Medicine,Diabetes Mellitus,Elective,2026-06-24,2026-07-02,8,General,Self-Pay,86180,Recovered,N
+ADM0250,P10249,19,Male,D01,General Medicine,Diabetes Mellitus,Emergency,2026-06-27,2026-06-29,2,Private,Govt. Employee Scheme,70602,Recovered,N
+ADM0251,P10250,17,Male,D06,Obstetrics & Gynaecology,Normal Vaginal Delivery,Emergency,2026-06-20,2026-06-29,9,General,Aarogyasri,48194,Improved,N
+ADM0252,P10251,44,Female,D01,General Medicine,Dengue Fever,Elective,2026-06-22,2026-06-26,4,General,Private Insurance,76806,Recovered,N
+ADM0253,P10252,24,Male,D01,General Medicine,Viral Fever,Elective,2026-06-08,2026-06-14,6,General,Govt. Employee Scheme,16044,Improved,N
+ADM0254,P10253,32,Female,D04,Pediatrics,Febrile Seizure,Emergency,2026-06-19,2026-06-23,4,General,Aarogyasri,71778,Recovered,N
+ADM0255,P10254,73,Male,D06,Obstetrics & Gynaecology,Pregnancy Complication,Emergency,2026-06-17,2026-06-23,6,Semi-Private,Aarogyasri,77877,Improved,N
+ADM0256,P10255,40,Male,D03,Orthopedics,Back Pain,Emergency,2026-06-10,2026-06-13,3,Semi-Private,Private Insurance,36047,Improved,Y
+ADM0257,P10256,63,Male,D02,Cardiology,Heart Failure,Emergency,2026-06-06,2026-06-14,8,General,Aarogyasri,63132,Improved,N
+ADM0258,P10257,23,Male,D04,Pediatrics,Bronchiolitis,Emergency,2026-06-04,2026-06-07,3,General,Aarogyasri,32232,Improved,N
+ADM0259,P10258,18,Female,D04,Pediatrics,Febrile Seizure,Emergency,2026-06-16,2026-06-22,6,General,Aarogyasri,91918,Improved,N
+ADM0260,P10259,20,Female,D06,Obstetrics & Gynaecology,PCOD,Emergency,2026-06-05,2026-06-12,7,Private,Aarogyasri,55179,Deceased,Y
+ADM0261,P10260,5,Male,D02,Cardiology,Coronary Artery Disease,Emergency,2026-06-13,2026-06-21,8,Semi-Private,Aarogyasri,22063,Recovered,N
+ADM0262,P10261,89,Female,D01,General Medicine,Diabetes Mellitus,Elective,2026-06-20,2026-06-23,3,ICU,Private Insurance,74138,Improved,N
+ADM0263,P10262,5,Male,D03,Orthopedics,Fracture of Radius/Ulna,Emergency,2026-07-09,2026-07-14,5,General,Self-Pay,59107,Improved,N
+ADM0264,P10263,63,Female,D03,Orthopedics,Fracture of Femur,Emergency,2026-07-28,2026-08-04,7,Private,Govt. Employee Scheme,37149,Recovered,N
+ADM0265,P10264,31,Female,D01,General Medicine,Diabetes Mellitus,Referral,2026-07-19,2026-07-21,2,Semi-Private,Self-Pay,60831,Recovered,N
+ADM0266,P10265,20,Male,D02,Cardiology,Heart Failure,Emergency,2026-07-30,2026-08-05,6,Semi-Private,Self-Pay,78511,Recovered,Y
+ADM0267,P10266,87,Female,D05,Neurology,Epilepsy,Referral,2026-07-17,2026-07-21,4,Semi-Private,Private Insurance,67428,Recovered,N
+ADM0268,P10267,12,Female,D04,Pediatrics,Gastroenteritis,Emergency,2026-07-31,2026-08-08,8,General,Aarogyasri,63269,Referred,N
+ADM0269,P10268,20,Female,D01,General Medicine,Diabetes Mellitus,Emergency,2026-07-16,2026-07-19,3,ICU,Self-Pay,61158,Referred,N
+ADM0270,P10269,31,Female,D05,Neurology,Neuropathy,Emergency,2026-07-23,2026-07-27,4,General,Aarogyasri,76903,Recovered,N
+ADM0271,P10270,4,Male,D04,Pediatrics,Gastroenteritis,Referral,2026-07-30,2026-08-04,5,Semi-Private,Govt. Employee Scheme,51102,LAMA,N
+ADM0272,P10271,86,Male,D05,Neurology,Neuropathy,Emergency,2026-07-24,2026-07-25,1,ICU,Aarogyasri,37297,Recovered,N
+ADM0273,P10272,83,Female,D01,General Medicine,Viral Fever,Emergency,2026-07-08,2026-07-16,8,General,Private Insurance,79971,Improved,N
+ADM0274,P10273,59,Male,D06,Obstetrics & Gynaecology,Caesarean Section,Emergency,2026-07-23,2026-08-02,10,ICU,Self-Pay,71404,Improved,Y
+ADM0275,P10274,57,Male,D03,Orthopedics,Fracture of Radius/Ulna,Elective,2026-07-01,2026-07-02,1,Semi-Private,Private Insurance,62411,Recovered,N
+ADM0276,P10275,27,Female,D03,Orthopedics,Fracture of Radius/Ulna,Emergency,2026-07-17,2026-07-21,4,General,Aarogyasri,19592,Recovered,N
+ADM0277,P10276,53,Female,D01,General Medicine,Typhoid Fever,Emergency,2026-07-08,2026-07-09,1,Semi-Private,Private Insurance,8666,Recovered,N
+ADM0278,P10277,62,Male,D04,Pediatrics,Bronchiolitis,Referral,2026-07-01,2026-07-03,2,Private,Aarogyasri,92640,Improved,N
+ADM0279,P10278,29,Female,D01,General Medicine,Viral Fever,Referral,2026-07-28,2026-08-03,6,General,Aarogyasri,70148,Recovered,N
+ADM0280,P10279,56,Female,D02,Cardiology,Arrhythmia,Emergency,2026-07-22,2026-07-28,6,Private,Aarogyasri,37966,Recovered,N
+ADM0281,P10280,19,Female,D03,Orthopedics,Osteoarthritis,Emergency,2026-07-15,2026-07-19,4,General,Private Insurance,10726,Recovered,N
+ADM0282,P10281,40,Male,D01,General Medicine,Hypertension,Emergency,2026-07-19,2026-07-26,7,Semi-Private,Aarogyasri,53660,Improved,N
+ADM0283,P10282,6,Female,D02,Cardiology,Coronary Artery Disease,Emergency,2026-07-08,2026-07-15,7,General,Aarogyasri,38750,Improved,N
+ADM0284,P10283,34,Male,D01,General Medicine,Typhoid Fever,Referral,2026-07-19,2026-07-27,8,Private,Private Insurance,31474,Recovered,N
+ADM0285,P10284,0,Male,D05,Neurology,Neuropathy,Emergency,2026-07-09,2026-07-11,2,ICU,Aarogyasri,62159,Recovered,N
+ADM0286,P10285,49,Male,D02,Cardiology,Coronary Artery Disease,Emergency,2026-07-04,2026-07-08,4,General,Aarogyasri,52078,Recovered,N
+ADM0287,P10286,64,Male,D04,Pediatrics,Pediatric Pneumonia,Emergency,2026-07-16,2026-07-20,4,General,Govt. Employee Scheme,53663,Recovered,N
+ADM0288,P10287,19,Male,D04,Pediatrics,Neonatal Jaundice,Emergency,2026-07-17,2026-07-25,8,Semi-Private,Self-Pay,27069,Recovered,N
+ADM0289,P10288,73,Male,D01,General Medicine,Typhoid Fever,Referral,2026-07-23,2026-07-24,1,General,Private Insurance,45763,Improved,N
+ADM0290,P10289,68,Male,D02,Cardiology,Heart Failure,Emergency,2026-07-08,2026-07-17,9,Semi-Private,Self-Pay,14062,Improved,N
+ADM0291,P10290,69,Male,D02,Cardiology,Coronary Artery Disease,Emergency,2026-07-04,2026-07-11,7,General,Aarogyasri,52605,Improved,N
+ADM0292,P10291,56,Male,D01,General Medicine,Pneumonia,Emergency,2026-07-02,2026-07-06,4,General,Govt. Employee Scheme,75411,Recovered,N
+ADM0293,P10292,35,Male,D02,Cardiology,Arrhythmia,Emergency,2026-07-12,2026-07-18,6,ICU,Self-Pay,65945,Referred,N
+ADM0294,P10293,46,Female,D01,General Medicine,Hypertension,Emergency,2026-07-21,2026-07-28,7,General,Private Insurance,103446,Recovered,Y
+ADM0295,P10294,38,Female,D01,General Medicine,Pneumonia,Elective,2026-07-02,2026-07-08,6,Semi-Private,Self-Pay,47405,Recovered,N
+ADM0296,P10295,39,Female,D03,Orthopedics,Fracture of Femur,Referral,2026-07-21,2026-07-28,7,General,Private Insurance,43406,Recovered,N
+ADM0297,P10296,48,Male,D03,Orthopedics,Osteoarthritis,Emergency,2026-07-26,2026-07-29,3,Private,Aarogyasri,34682,Improved,Y
+ADM0298,P10297,39,Female,D01,General Medicine,Diabetes Mellitus,Referral,2026-07-27,2026-08-01,5,General,Govt. Employee Scheme,64266,Recovered,Y
+ADM0299,P10298,16,Female,D02,Cardiology,Heart Failure,Emergency,2026-07-16,2026-07-17,1,Semi-Private,Self-Pay,33512,Improved,N
+ADM0300,P10299,24,Female,D01,General Medicine,Typhoid Fever,Emergency,2026-07-28,2026-07-31,3,General,Govt. Employee Scheme,51618,Recovered,N
+ADM0301,P10300,13,Male,D02,Cardiology,Arrhythmia,Emergency,2026-07-31,2026-08-01,1,ICU,Self-Pay,107050,Improved,N
+ADM0302,P10301,34,Female,D02,Cardiology,Arrhythmia,Emergency,2026-07-24,2026-07-26,2,Private,Self-Pay,73168,Recovered,N
+ADM0303,P10302,74,Male,D06,Obstetrics & Gynaecology,Pregnancy Complication,Elective,2026-07-21,2026-07-23,2,Semi-Private,Self-Pay,18788,Recovered,N
+ADM0304,P10303,83,Female,D06,Obstetrics & Gynaecology,Pregnancy Complication,Emergency,2026-07-09,2026-07-17,8,General,Aarogyasri,62469,Improved,N
+ADM0305,P10304,3,Male,D01,General Medicine,Hypertension,Emergency,2026-07-10,2026-07-12,2,Semi-Private,Aarogyasri,23463,Improved,N
+ADM0306,P10305,70,Female,D03,Orthopedics,Road Traffic Injury,Emergency,2026-07-07,2026-07-13,6,General,Self-Pay,84881,Recovered,N
+ADM0307,P10306,87,Female,D01,General Medicine,Diabetes Mellitus,Emergency,2026-07-09,2026-07-17,8,General,Aarogyasri,36194,Recovered,N
+ADM0308,P10307,74,Female,D06,Obstetrics & Gynaecology,PCOD,Emergency,2026-07-03,2026-07-05,2,ICU,Aarogyasri,50356,Recovered,N
+ADM0309,P10308,8,Female,D05,Neurology,Migraine,Emergency,2026-07-31,2026-08-07,7,General,Self-Pay,69143,Recovered,N
+ADM0310,P10309,43,Female,D03,Orthopedics,Road Traffic Injury,Emergency,2026-07-12,2026-07-13,1,ICU,Aarogyasri,51977,Improved,N
+ADM0311,P10310,24,Male,D06,Obstetrics & Gynaecology,Normal Vaginal Delivery,Elective,2026-07-31,2026-08-05,5,General,Aarogyasri,39532,Recovered,N
+ADM0312,P10311,72,Female,D03,Orthopedics,Osteoarthritis,Emergency,2026-07-13,2026-07-18,5,ICU,Aarogyasri,37311,Improved,N
+ADM0313,P10312,60,Female,D04,Pediatrics,Neonatal Jaundice,Referral,2026-07-17,2026-07-20,3,General,Self-Pay,31616,Recovered,N
+ADM0314,P10313,85,Male,D01,General Medicine,Pneumonia,Emergency,2026-07-13,2026-07-21,8,General,Aarogyasri,81482,Improved,N
+ADM0315,P10314,68,Male,D03,Orthopedics,Road Traffic Injury,Elective,2026-07-20,2026-07-27,7,General,Self-Pay,23117,Recovered,N
+ADM0316,P10315,2,Male,D04,Pediatrics,Neonatal Jaundice,Emergency,2026-07-25,2026-08-01,7,General,Govt. Employee Scheme,87156,Recovered,N
+ADM0317,P10316,89,Male,D01,General Medicine,Pneumonia,Emergency,2026-07-24,2026-07-30,6,Private,Aarogyasri,87845,Recovered,N
+ADM0318,P10317,49,Male,D04,Pediatrics,Gastroenteritis,Emergency,2026-07-01,2026-07-02,1,Semi-Private,Govt. Employee Scheme,48229,Recovered,N
+ADM0319,P10318,39,Male,D04,Pediatrics,Bronchiolitis,Emergency,2026-08-29,2026-08-31,2,General,Aarogyasri,65101,Recovered,N
+ADM0320,P10319,13,Female,D03,Orthopedics,Fracture of Radius/Ulna,Emergency,2026-08-28,2026-08-30,2,Private,Self-Pay,56708,Improved,N
+ADM0321,P10320,14,Female,D01,General Medicine,Pneumonia,Elective,2026-08-12,2026-08-20,8,General,Govt. Employee Scheme,58975,Recovered,N
+ADM0322,P10321,63,Male,D01,General Medicine,Typhoid Fever,Emergency,2026-08-13,2026-08-17,4,General,Private Insurance,80907,Recovered,N
+ADM0323,P10322,23,Female,D02,Cardiology,Coronary Artery Disease,Emergency,2026-08-08,2026-08-11,3,Private,Private Insurance,26875,Improved,N
+ADM0324,P10323,71,Male,D03,Orthopedics,Osteoarthritis,Emergency,2026-08-16,2026-08-23,7,General,Private Insurance,70667,Improved,N
+ADM0325,P10324,64,Female,D06,Obstetrics & Gynaecology,Normal Vaginal Delivery,Referral,2026-08-15,2026-08-23,8,Private,Aarogyasri,67969,Improved,N
+ADM0326,P10325,74,Female,D01,General Medicine,Dengue Fever,Emergency,2026-08-09,2026-08-15,6,Semi-Private,Self-Pay,51310,Recovered,N
+ADM0327,P10326,42,Male,D06,Obstetrics & Gynaecology,Normal Vaginal Delivery,Emergency,2026-08-27,2026-09-04,8,General,Aarogyasri,32915,LAMA,N
+ADM0328,P10327,26,Female,D03,Orthopedics,Osteoarthritis,Referral,2026-08-18,2026-08-27,9,General,Self-Pay,21918,Recovered,N
+ADM0329,P10328,26,Female,D05,Neurology,Epilepsy,Elective,2026-08-15,2026-08-17,2,Semi-Private,Aarogyasri,34525,Recovered,N
+ADM0330,P10329,41,Male,D02,Cardiology,Coronary Artery Disease,Emergency,2026-08-23,2026-08-31,8,General,Self-Pay,74056,Improved,N
+ADM0331,P10330,22,Female,D03,Orthopedics,Fracture of Radius/Ulna,Elective,2026-08-04,2026-08-11,7,General,Aarogyasri,17898,Improved,N
+ADM0332,P10331,23,Male,D04,Pediatrics,Febrile Seizure,Emergency,2026-08-20,2026-08-28,8,General,Aarogyasri,81998,Recovered,N
+ADM0333,P10332,10,Female,D01,General Medicine,Hypertension,Emergency,2026-08-19,2026-08-27,8,ICU,Private Insurance,41977,Recovered,Y
+ADM0334,P10333,24,Female,D06,Obstetrics & Gynaecology,PCOD,Emergency,2026-08-09,2026-08-14,5,Semi-Private,Self-Pay,88166,Recovered,N
+ADM0335,P10334,72,Female,D06,Obstetrics & Gynaecology,PCOD,Emergency,2026-08-22,2026-08-29,7,Semi-Private,Aarogyasri,60535,Referred,N
+ADM0336,P10335,19,Male,D04,Pediatrics,Febrile Seizure,Emergency,2026-08-24,2026-08-26,2,Semi-Private,Aarogyasri,73909,Recovered,N
+ADM0337,P10336,72,Female,D03,Orthopedics,Fracture of Femur,Emergency,2026-08-27,2026-09-03,7,Private,Private Insurance,94321,Deceased,N
+ADM0338,P10337,65,Female,D02,Cardiology,Coronary Artery Disease,Elective,2026-08-12,2026-08-16,4,Private,Self-Pay,29500,Deceased,N
+ADM0339,P10338,28,Male,D06,Obstetrics & Gynaecology,Normal Vaginal Delivery,Emergency,2026-08-31,2026-09-03,3,General,Aarogyasri,67054,Recovered,N
+ADM0340,P10339,27,Male,D03,Orthopedics,Fracture of Femur,Emergency,2026-08-05,2026-08-12,7,Private,Private Insurance,30636,Improved,N
+ADM0341,P10340,73,Male,D01,General Medicine,Viral Fever,Elective,2026-08-26,2026-09-03,8,Semi-Private,Aarogyasri,26341,Recovered,N
+ADM0342,P10341,4,Female,D03,Orthopedics,Road Traffic Injury,Elective,2026-08-28,2026-09-05,8,General,Govt. Employee Scheme,16097,Recovered,N
+ADM0343,P10342,65,Male,D02,Cardiology,Heart Failure,Elective,2026-08-24,2026-08-26,2,Semi-Private,Private Insurance,80168,Improved,N
+ADM0344,P10343,50,Male,D02,Cardiology,Acute Myocardial Infarction,Referral,2026-08-31,2026-09-08,8,General,Self-Pay,34105,Recovered,N
+ADM0345,P10344,7,Female,D04,Pediatrics,Pediatric Pneumonia,Emergency,2026-08-08,2026-08-15,7,Private,Aarogyasri,32606,Improved,N
+ADM0346,P10345,15,Female,D01,General Medicine,Dengue Fever,Emergency,2026-08-31,2026-09-09,9,Semi-Private,Self-Pay,55313,Improved,Y
+ADM0347,P10346,19,Male,D01,General Medicine,Diabetes Mellitus,Emergency,2026-08-03,2026-08-09,6,General,Private Insurance,50155,Recovered,N
+ADM0348,P10347,14,Female,D06,Obstetrics & Gynaecology,PCOD,Emergency,2026-08-29,2026-09-04,6,Private,Private Insurance,22169,Recovered,N
+ADM0349,P10348,24,Male,D04,Pediatrics,Febrile Seizure,Emergency,2026-08-23,2026-08-30,7,General,Self-Pay,21010,Referred,N
+ADM0350,P10349,33,Male,D04,Pediatrics,Febrile Seizure,Referral,2026-08-30,2026-09-05,6,General,Govt. Employee Scheme,52494,Recovered,N
+ADM0351,P10350,73,Male,D04,Pediatrics,Gastroenteritis,Referral,2026-08-13,2026-08-17,4,Semi-Private,Aarogyasri,79906,Improved,N
+ADM0352,P10351,78,Female,D01,General Medicine,Pneumonia,Emergency,2026-08-19,2026-08-25,6,General,Self-Pay,79478,Recovered,N
+ADM0353,P10352,24,Female,D05,Neurology,Migraine,Emergency,2026-08-08,2026-08-13,5,Semi-Private,Aarogyasri,47769,Referred,N
+ADM0354,P10353,16,Male,D01,General Medicine,Dengue Fever,Emergency,2026-08-24,2026-08-26,2,Semi-Private,Govt. Employee Scheme,40143,Recovered,N
+ADM0355,P10354,11,Female,D01,General Medicine,Diabetes Mellitus,Emergency,2026-08-21,2026-08-26,5,Semi-Private,Govt. Employee Scheme,55777,Recovered,N
+ADM0356,P10355,45,Male,D01,General Medicine,Dengue Fever,Referral,2026-08-08,2026-08-16,8,General,Aarogyasri,55253,Recovered,N
+ADM0357,P10356,68,Male,D02,Cardiology,Arrhythmia,Referral,2026-08-10,2026-08-12,2,General,Self-Pay,95328,Improved,N
+ADM0358,P10357,29,Female,D06,Obstetrics & Gynaecology,Pregnancy Complication,Emergency,2026-08-16,2026-08-18,2,Private,Aarogyasri,73866,Improved,N
+ADM0359,P10358,4,Female,D03,Orthopedics,Fracture of Femur,Emergency,2026-08-05,2026-08-11,6,General,Aarogyasri,48218,Recovered,N
+ADM0360,P10359,28,Female,D03,Orthopedics,Road Traffic Injury,Emergency,2026-08-12,2026-08-15,3,ICU,Self-Pay,52417,Improved,N
+ADM0361,P10360,67,Female,D02,Cardiology,Coronary Artery Disease,Elective,2026-08-25,2026-09-02,8,Private,Self-Pay,57734,Recovered,Y
+ADM0362,P10361,64,Female,D01,General Medicine,Viral Fever,Emergency,2026-08-09,2026-08-13,4,ICU,Self-Pay,76131,Recovered,N
+ADM0363,P10362,87,Female,D02,Cardiology,Acute Myocardial Infarction,Elective,2026-08-31,2026-09-03,3,Semi-Private,Private Insurance,85443,Recovered,N
+ADM0364,P10363,35,Male,D06,Obstetrics & Gynaecology,Pregnancy Complication,Emergency,2026-08-18,2026-08-24,6,General,Self-Pay,36806,Referred,N
+ADM0365,P10364,17,Male,D04,Pediatrics,Gastroenteritis,Emergency,2026-08-14,2026-08-16,2,Semi-Private,Self-Pay,86720,LAMA,N
+ADM0366,P10365,25,Female,D01,General Medicine,Typhoid Fever,Emergency,2026-08-18,2026-08-22,4,General,Self-Pay,45739,Improved,N
+ADM0367,P10366,23,Male,D01,General Medicine,Pneumonia,Emergency,2026-08-31,2026-09-09,9,General,Self-Pay,58443,Improved,N
+ADM0368,P10367,32,Male,D02,Cardiology,Coronary Artery Disease,Emergency,2026-08-07,2026-08-14,7,General,Aarogyasri,61018,Recovered,N
+ADM0369,P10368,53,Male,D03,Orthopedics,Osteoarthritis,Referral,2026-08-28,2026-08-31,3,Private,Self-Pay,73249,Recovered,N
+ADM0370,P10369,43,Male,D02,Cardiology,Acute Myocardial Infarction,Referral,2026-08-09,2026-08-17,8,Private,Aarogyasri,18172,Recovered,N
+ADM0371,P10370,37,Female,D01,General Medicine,Viral Fever,Emergency,2026-08-23,2026-08-24,1,General,Aarogyasri,85977,Improved,N
+ADM0372,P10371,39,Female,D04,Pediatrics,Neonatal Jaundice,Emergency,2026-08-29,2026-09-06,8,Semi-Private,Private Insurance,29389,Recovered,N
+ADM0373,P10372,43,Female,D03,Orthopedics,Road Traffic Injury,Emergency,2026-08-03,2026-08-05,2,Semi-Private,Aarogyasri,80428,Recovered,N
+ADM0374,P10373,43,Female,D01,General Medicine,Pneumonia,Emergency,2026-08-21,2026-08-22,1,General,Aarogyasri,13678,Improved,N
+ADM0375,P10374,34,Female,D01,General Medicine,Hypertension,Emergency,2026-08-18,2026-08-23,5,General,Self-Pay,96221,Recovered,N
+ADM0376,P10375,43,Female,D06,Obstetrics & Gynaecology,Normal Vaginal Delivery,Emergency,2026-08-14,2026-08-21,7,Semi-Private,Aarogyasri,39338,Improved,N
+ADM0377,P10376,2,Female,D02,Cardiology,Coronary Artery Disease,Emergency,2026-08-26,2026-09-05,10,Private,Aarogyasri,59946,Improved,Y
+ADM0378,P10377,45,Female,D04,Pediatrics,Neonatal Jaundice,Emergency,2026-08-07,2026-08-12,5,Private,Aarogyasri,39635,Recovered,N
+ADM0379,P10378,87,Male,D01,General Medicine,Viral Fever,Emergency,2026-08-07,2026-08-14,7,Semi-Private,Private Insurance,14810,Recovered,Y
+ADM0380,P10379,55,Male,D02,Cardiology,Acute Myocardial Infarction,Referral,2026-08-06,2026-08-14,8,Semi-Private,Private Insurance,69021,Improved,N
+ADM0381,P10380,80,Female,D06,Obstetrics & Gynaecology,Caesarean Section,Elective,2026-08-20,2026-08-22,2,Private,Private Insurance,34493,Improved,N
+ADM0382,P10381,73,Female,D02,Cardiology,Coronary Artery Disease,Emergency,2026-08-13,2026-08-15,2,General,Self-Pay,63937,Improved,N
+ADM0383,P10382,57,Female,D02,Cardiology,Acute Myocardial Infarction,Referral,2026-09-13,2026-09-20,7,Private,Self-Pay,66134,Improved,N
+ADM0384,P10383,15,Male,D02,Cardiology,Coronary Artery Disease,Emergency,2026-09-20,2026-09-22,2,Semi-Private,Govt. Employee Scheme,102573,Referred,Y
+ADM0385,P10384,43,Male,D04,Pediatrics,Pediatric Pneumonia,Emergency,2026-09-16,2026-09-21,5,General,Self-Pay,57155,Recovered,N
+ADM0386,P10385,65,Female,D04,Pediatrics,Pediatric Pneumonia,Elective,2026-09-27,2026-10-03,6,ICU,Aarogyasri,45461,Improved,N
+ADM0387,P10386,30,Male,D06,Obstetrics & Gynaecology,Pregnancy Complication,Elective,2026-09-30,2026-10-10,10,General,Self-Pay,93165,Improved,N
+ADM0388,P10387,70,Male,D01,General Medicine,Hypertension,Referral,2026-09-25,2026-10-03,8,Private,Aarogyasri,42031,Referred,Y
+ADM0389,P10388,52,Male,D04,Pediatrics,Neonatal Jaundice,Emergency,2026-09-11,2026-09-14,3,General,Private Insurance,30845,Referred,N
+ADM0390,P10389,69,Male,D03,Orthopedics,Osteoarthritis,Emergency,2026-09-06,2026-09-10,4,General,Private Insurance,41381,LAMA,N
+ADM0391,P10390,36,Female,D01,General Medicine,Hypertension,Emergency,2026-09-20,2026-09-26,6,General,Private Insurance,88093,Recovered,Y
+ADM0392,P10391,7,Female,D05,Neurology,Epilepsy,Emergency,2026-09-15,2026-09-21,6,General,Self-Pay,19991,Recovered,N
+ADM0393,P10392,18,Male,D05,Neurology,Epilepsy,Emergency,2026-09-20,2026-09-23,3,General,Self-Pay,58570,Recovered,N
+ADM0394,P10393,24,Female,D02,Cardiology,Coronary Artery Disease,Emergency,2026-09-21,2026-09-27,6,General,Govt. Employee Scheme,69910,Improved,N
+ADM0395,P10394,40,Male,D01,General Medicine,Diabetes Mellitus,Elective,2026-09-17,2026-09-21,4,General,Private Insurance,48165,Recovered,N
+ADM0396,P10395,9,Female,D04,Pediatrics,Bronchiolitis,Emergency,2026-09-25,2026-10-01,6,General,Private Insurance,88989,Recovered,N
+ADM0397,P10396,31,Female,D03,Orthopedics,Osteoarthritis,Emergency,2026-09-22,2026-09-25,3,General,Self-Pay,71748,Improved,Y
+ADM0398,P10397,64,Female,D02,Cardiology,Acute Myocardial Infarction,Emergency,2026-09-12,2026-09-18,6,General,Private Insurance,52518,Improved,N
+ADM0399,P10398,59,Female,D04,Pediatrics,Pediatric Pneumonia,Emergency,2026-09-05,2026-09-10,5,General,Self-Pay,39360,Recovered,N
+ADM0400,P10399,26,Male,D04,Pediatrics,Gastroenteritis,Emergency,2026-09-08,2026-09-15,7,General,Private Insurance,65425,Improved,N
+ADM0401,P10400,22,Female,D03,Orthopedics,Fracture of Femur,Elective,2026-09-06,2026-09-11,5,General,Aarogyasri,28375,Improved,Y
+ADM0402,P10401,64,Male,D04,Pediatrics,Gastroenteritis,Emergency,2026-09-21,2026-09-24,3,General,Self-Pay,66050,Recovered,N
+ADM0403,P10402,59,Female,D06,Obstetrics & Gynaecology,Normal Vaginal Delivery,Emergency,2026-09-29,2026-10-07,8,General,Govt. Employee Scheme,63623,Improved,N
+ADM0404,P10403,19,Male,D04,Pediatrics,Neonatal Jaundice,Emergency,2026-09-06,2026-09-09,3,ICU,Aarogyasri,33593,Referred,N
+ADM0405,P10404,2,Male,D04,Pediatrics,Bronchiolitis,Emergency,2026-09-10,2026-09-18,8,Private,Aarogyasri,30436,Recovered,N
+ADM0406,P10405,51,Male,D03,Orthopedics,Fracture of Radius/Ulna,Emergency,2026-09-14,2026-09-15,1,ICU,Private Insurance,59848,Recovered,N
+ADM0407,P10406,70,Male,D03,Orthopedics,Fracture of Femur,Emergency,2026-09-12,2026-09-19,7,General,Private Insurance,92468,Recovered,N
+ADM0408,P10407,36,Female,D04,Pediatrics,Febrile Seizure,Emergency,2026-09-21,2026-09-29,8,Semi-Private,Self-Pay,12114,Improved,N
+ADM0409,P10408,18,Female,D06,Obstetrics & Gynaecology,PCOD,Emergency,2026-09-25,2026-10-03,8,Private,Aarogyasri,54859,Improved,N
+ADM0410,P10409,70,Female,D01,General Medicine,Pneumonia,Emergency,2026-09-25,2026-09-30,5,Private,Self-Pay,29856,Recovered,Y
+ADM0411,P10410,11,Female,D03,Orthopedics,Road Traffic Injury,Emergency,2026-09-22,2026-09-28,6,General,Self-Pay,60073,Recovered,N
+ADM0412,P10411,0,Female,D05,Neurology,Neuropathy,Emergency,2026-09-22,2026-09-30,8,Semi-Private,Self-Pay,99814,Recovered,N
+ADM0413,P10412,2,Male,D01,General Medicine,Hypertension,Emergency,2026-09-27,2026-09-28,1,Private,Aarogyasri,62100,Improved,Y
+ADM0414,P10413,66,Female,D01,General Medicine,Hypertension,Emergency,2026-09-06,2026-09-12,6,General,Self-Pay,60609,Recovered,N
+ADM0415,P10414,12,Female,D04,Pediatrics,Neonatal Jaundice,Elective,2026-09-12,2026-09-15,3,Semi-Private,Aarogyasri,19639,Recovered,N
+ADM0416,P10415,34,Male,D01,General Medicine,Diabetes Mellitus,Emergency,2026-09-28,2026-09-30,2,General,Self-Pay,31146,Recovered,N
+ADM0417,P10416,65,Male,D02,Cardiology,Acute Myocardial Infarction,Referral,2026-09-14,2026-09-21,7,General,Aarogyasri,27961,Recovered,N
+ADM0418,P10417,53,Male,D02,Cardiology,Arrhythmia,Emergency,2026-09-21,2026-09-28,7,Private,Aarogyasri,88922,Recovered,N
+ADM0419,P10418,37,Male,D06,Obstetrics & Gynaecology,Normal Vaginal Delivery,Emergency,2026-09-30,2026-10-08,8,General,Aarogyasri,45406,Recovered,N
+ADM0420,P10419,60,Male,D06,Obstetrics & Gynaecology,Caesarean Section,Emergency,2026-09-06,2026-09-14,8,General,Private Insurance,76900,Recovered,N
+ADM0421,P10420,76,Female,D01,General Medicine,Pneumonia,Emergency,2026-09-30,2026-10-02,2,Semi-Private,Self-Pay,13023,Recovered,N
+ADM0422,P10421,60,Male,D04,Pediatrics,Pediatric Pneumonia,Elective,2026-09-24,2026-09-27,3,Semi-Private,Private Insurance,98842,Recovered,N
+ADM0423,P10422,25,Female,D04,Pediatrics,Pediatric Pneumonia,Emergency,2026-09-01,2026-09-09,8,Semi-Private,Aarogyasri,62392,Recovered,N
+ADM0424,P10423,39,Female,D01,General Medicine,Typhoid Fever,Emergency,2026-09-19,2026-09-24,5,ICU,Self-Pay,48205,Recovered,N
+ADM0425,P10424,60,Female,D05,Neurology,Stroke,Emergency,2026-09-16,2026-09-22,6,General,Aarogyasri,22419,Recovered,Y
+ADM0426,P10425,25,Male,D04,Pediatrics,Bronchiolitis,Elective,2026-09-02,2026-09-08,6,General,Private Insurance,64302,Recovered,N
+ADM0427,P10426,34,Male,D04,Pediatrics,Gastroenteritis,Emergency,2026-09-14,2026-09-15,1,Private,Private Insurance,51981,Improved,N
+ADM0428,P10427,70,Male,D05,Neurology,Epilepsy,Emergency,2026-09-26,2026-10-04,8,ICU,Govt. Employee Scheme,55261,Improved,N
+ADM0429,P10428,5,Female,D01,General Medicine,Typhoid Fever,Emergency,2026-09-20,2026-09-23,3,General,Aarogyasri,64542,Recovered,N
+ADM0430,P10429,17,Female,D05,Neurology,Stroke,Emergency,2026-09-07,2026-09-09,2,Semi-Private,Private Insurance,55425,Improved,N
+ADM0431,P10430,65,Female,D06,Obstetrics & Gynaecology,Pregnancy Complication,Emergency,2026-09-03,2026-09-08,5,General,Aarogyasri,36808,Referred,Y
+ADM0432,P10431,54,Male,D03,Orthopedics,Road Traffic Injury,Emergency,2026-09-10,2026-09-14,4,Semi-Private,Govt. Employee Scheme,66333,Recovered,N
+ADM0433,P10432,56,Male,D04,Pediatrics,Neonatal Jaundice,Emergency,2026-09-10,2026-09-12,2,Private,Govt. Employee Scheme,43318,Recovered,N
+ADM0434,P10433,31,Female,D02,Cardiology,Heart Failure,Emergency,2026-09-26,2026-09-30,4,General,Govt. Employee Scheme,42420,Improved,N
+ADM0435,P10434,68,Female,D04,Pediatrics,Pediatric Pneumonia,Emergency,2026-09-29,2026-10-05,6,General,Self-Pay,88106,Improved,N
+ADM0436,P10435,20,Female,D01,General Medicine,Diabetes Mellitus,Elective,2026-09-25,2026-09-27,2,General,Private Insurance,103694,Recovered,N
+ADM0437,P10436,6,Male,D04,Pediatrics,Neonatal Jaundice,Referral,2026-09-08,2026-09-09,1,General,Aarogyasri,102982,Recovered,N
+ADM0438,P10437,52,Female,D02,Cardiology,Acute Myocardial Infarction,Emergency,2026-09-13,2026-09-17,4,Semi-Private,Aarogyasri,27486,Recovered,N
+ADM0439,P10438,54,Male,D02,Cardiology,Coronary Artery Disease,Emergency,2026-09-22,2026-09-24,2,Semi-Private,Self-Pay,93209,Recovered,N
+ADM0440,P10439,45,Male,D06,Obstetrics & Gynaecology,PCOD,Emergency,2026-09-10,2026-09-13,3,Private,Aarogyasri,44047,Improved,N
+ADM0441,P10440,44,Male,D06,Obstetrics & Gynaecology,PCOD,Emergency,2026-09-01,2026-09-08,7,ICU,Aarogyasri,47033,Recovered,N
+ADM0442,P10441,57,Female,D04,Pediatrics,Neonatal Jaundice,Elective,2026-09-26,2026-10-01,5,General,Private Insurance,89726,Improved,N
+ADM0443,P10442,43,Female,D02,Cardiology,Coronary Artery Disease,Emergency,2026-09-02,2026-09-11,9,General,Self-Pay,66858,Improved,N
+ADM0444,P10443,46,Female,D03,Orthopedics,Osteoarthritis,Emergency,2026-09-23,2026-09-27,4,Semi-Private,Aarogyasri,74101,Improved,N
+ADM0445,P10444,3,Female,D03,Orthopedics,Back Pain,Emergency,2026-09-09,2026-09-13,4,Private,Aarogyasri,19943,Referred,N
+ADM0446,P10445,31,Male,D01,General Medicine,Pneumonia,Emergency,2026-09-28,2026-09-30,2,General,Private Insurance,67438,Recovered,N
+ADM0447,P10446,53,Female,D06,Obstetrics & Gynaecology,Caesarean Section,Emergency,2026-09-20,2026-09-30,10,Private,Aarogyasri,76199,Improved,N
+ADM0448,P10447,48,Male,D03,Orthopedics,Back Pain,Elective,2026-09-26,2026-10-04,8,Private,Aarogyasri,76180,Recovered,N
+ADM0449,P10448,15,Female,D01,General Medicine,Viral Fever,Emergency,2026-10-06,2026-10-09,3,Semi-Private,Aarogyasri,18951,Improved,N
+ADM0450,P10449,3,Female,D04,Pediatrics,Gastroenteritis,Emergency,2026-10-25,2026-11-02,8,ICU,Aarogyasri,64380,Recovered,N
+ADM0451,P10450,29,Female,D02,Cardiology,Coronary Artery Disease,Elective,2026-10-05,2026-10-13,8,Semi-Private,Aarogyasri,33825,Recovered,N
+ADM0452,P10451,51,Female,D06,Obstetrics & Gynaecology,Caesarean Section,Emergency,2026-10-15,2026-10-22,7,General,Self-Pay,91304,Recovered,N
+ADM0453,P10452,9,Male,D04,Pediatrics,Gastroenteritis,Emergency,2026-10-25,2026-10-31,6,ICU,Self-Pay,70581,Improved,N
+ADM0454,P10453,74,Male,D05,Neurology,Epilepsy,Referral,2026-10-25,2026-11-02,8,Private,Aarogyasri,73318,Recovered,N
+ADM0455,P10454,11,Female,D05,Neurology,Neuropathy,Emergency,2026-10-12,2026-10-21,9,General,Self-Pay,77156,Improved,N
+ADM0456,P10455,3,Female,D04,Pediatrics,Pediatric Pneumonia,Elective,2026-10-23,2026-10-30,7,Semi-Private,Aarogyasri,41431,Improved,N
+ADM0457,P10456,54,Female,D02,Cardiology,Arrhythmia,Referral,2026-10-20,2026-10-25,5,General,Self-Pay,46992,Recovered,N
+ADM0458,P10457,48,Female,D02,Cardiology,Heart Failure,Emergency,2026-10-18,2026-10-20,2,General,Govt. Employee Scheme,66797,Recovered,N
+ADM0459,P10458,63,Male,D03,Orthopedics,Back Pain,Referral,2026-10-06,2026-10-12,6,Semi-Private,Aarogyasri,25816,Recovered,N
+ADM0460,P10459,64,Female,D06,Obstetrics & Gynaecology,Caesarean Section,Emergency,2026-10-06,2026-10-11,5,General,Private Insurance,52222,Referred,N
+ADM0461,P10460,51,Male,D06,Obstetrics & Gynaecology,PCOD,Referral,2026-10-20,2026-10-25,5,Semi-Private,Aarogyasri,17945,Recovered,N
+ADM0462,P10461,81,Male,D03,Orthopedics,Fracture of Femur,Emergency,2026-10-28,2026-11-02,5,ICU,Self-Pay,60933,LAMA,N
+ADM0463,P10462,29,Male,D02,Cardiology,Heart Failure,Emergency,2026-10-21,2026-10-28,7,General,Self-Pay,74575,Recovered,N
+ADM0464,P10463,70,Female,D06,Obstetrics & Gynaecology,PCOD,Emergency,2026-10-10,2026-10-12,2,Semi-Private,Self-Pay,23652,Recovered,Y
+ADM0465,P10464,59,Female,D03,Orthopedics,Osteoarthritis,Elective,2026-10-21,2026-10-26,5,General,Aarogyasri,60167,Recovered,N
+ADM0466,P10465,2,Male,D05,Neurology,Migraine,Emergency,2026-10-15,2026-10-22,7,Semi-Private,Aarogyasri,65579,Improved,N
+ADM0467,P10466,6,Male,D03,Orthopedics,Fracture of Femur,Emergency,2026-10-01,2026-10-06,5,ICU,Aarogyasri,94286,Improved,N
+ADM0468,P10467,64,Female,D01,General Medicine,Hypertension,Emergency,2026-10-25,2026-11-02,8,General,Private Insurance,49020,Recovered,N
+ADM0469,P10468,21,Male,D04,Pediatrics,Gastroenteritis,Emergency,2026-10-25,2026-10-26,1,ICU,Aarogyasri,55510,Recovered,N
+ADM0470,P10469,14,Female,D03,Orthopedics,Fracture of Radius/Ulna,Emergency,2026-10-29,2026-10-30,1,Semi-Private,Aarogyasri,46847,Recovered,N
+ADM0471,P10470,73,Male,D01,General Medicine,Viral Fever,Emergency,2026-10-22,2026-10-30,8,General,Private Insurance,55065,Improved,N
+ADM0472,P10471,71,Male,D05,Neurology,Migraine,Emergency,2026-10-11,2026-10-14,3,General,Aarogyasri,78766,Recovered,N
+ADM0473,P10472,35,Male,D04,Pediatrics,Gastroenteritis,Emergency,2026-10-13,2026-10-21,8,Semi-Private,Private Insurance,23187,Referred,N
+ADM0474,P10473,45,Female,D03,Orthopedics,Road Traffic Injury,Emergency,2026-10-25,2026-11-02,8,General,Govt. Employee Scheme,41597,Deceased,N
+ADM0475,P10474,16,Male,D06,Obstetrics & Gynaecology,Pregnancy Complication,Emergency,2026-10-16,2026-10-19,3,General,Self-Pay,30082,Improved,N
+ADM0476,P10475,85,Female,D01,General Medicine,Viral Fever,Referral,2026-10-01,2026-10-08,7,General,Self-Pay,34009,Improved,N
+ADM0477,P10476,38,Male,D04,Pediatrics,Bronchiolitis,Elective,2026-10-15,2026-10-24,9,Semi-Private,Self-Pay,42491,Improved,N
+ADM0478,P10477,1,Female,D04,Pediatrics,Bronchiolitis,Emergency,2026-10-27,2026-11-01,5,General,Private Insurance,64179,Recovered,N
+ADM0479,P10478,30,Female,D06,Obstetrics & Gynaecology,Pregnancy Complication,Emergency,2026-10-22,2026-10-27,5,General,Self-Pay,94815,Recovered,N
+ADM0480,P10479,23,Female,D01,General Medicine,Hypertension,Elective,2026-10-05,2026-10-09,4,General,Aarogyasri,99619,Recovered,N
+ADM0481,P10480,15,Female,D06,Obstetrics & Gynaecology,Normal Vaginal Delivery,Emergency,2026-10-10,2026-10-15,5,Semi-Private,Aarogyasri,52099,Improved,N
+ADM0482,P10481,56,Female,D06,Obstetrics & Gynaecology,Pregnancy Complication,Referral,2026-10-25,2026-10-28,3,General,Self-Pay,64981,Recovered,N
+ADM0483,P10482,15,Male,D01,General Medicine,Pneumonia,Emergency,2026-10-12,2026-10-18,6,General,Self-Pay,25045,Recovered,N
+ADM0484,P10483,3,Female,D01,General Medicine,Diabetes Mellitus,Referral,2026-10-03,2026-10-05,2,Semi-Private,Private Insurance,76990,Referred,N
+ADM0485,P10484,70,Female,D03,Orthopedics,Back Pain,Emergency,2026-10-06,2026-10-15,9,General,Self-Pay,87768,Recovered,N
+ADM0486,P10485,3,Female,D04,Pediatrics,Febrile Seizure,Emergency,2026-10-29,2026-11-01,3,General,Aarogyasri,24501,Recovered,N
+ADM0487,P10486,35,Male,D01,General Medicine,Diabetes Mellitus,Emergency,2026-10-25,2026-11-02,8,Semi-Private,Aarogyasri,14365,Recovered,N
+ADM0488,P10487,2,Male,D02,Cardiology,Arrhythmia,Referral,2026-10-13,2026-10-18,5,General,Aarogyasri,90077,Recovered,N
+ADM0489,P10488,5,Male,D04,Pediatrics,Pediatric Pneumonia,Emergency,2026-10-30,2026-11-05,6,General,Aarogyasri,56376,Recovered,N
+ADM0490,P10489,72,Female,D03,Orthopedics,Osteoarthritis,Elective,2026-10-30,2026-11-04,5,General,Self-Pay,62732,Recovered,N
+ADM0491,P10490,48,Male,D01,General Medicine,Dengue Fever,Elective,2026-10-20,2026-10-22,2,Semi-Private,Private Insurance,81404,Recovered,N
+ADM0492,P10491,65,Male,D03,Orthopedics,Fracture of Radius/Ulna,Emergency,2026-10-30,2026-11-04,5,Private,Aarogyasri,89811,Recovered,N
+ADM0493,P10492,14,Female,D06,Obstetrics & Gynaecology,Caesarean Section,Emergency,2026-10-22,2026-10-28,6,General,Aarogyasri,59100,Recovered,N
+ADM0494,P10493,66,Female,D01,General Medicine,Viral Fever,Referral,2026-10-15,2026-10-20,5,General,Self-Pay,15275,LAMA,N
+ADM0495,P10494,49,Female,D03,Orthopedics,Osteoarthritis,Referral,2026-10-13,2026-10-23,10,ICU,Private Insurance,83449,Recovered,N
+ADM0496,P10495,8,Male,D02,Cardiology,Acute Myocardial Infarction,Emergency,2026-10-03,2026-10-07,4,ICU,Aarogyasri,50685,Recovered,N
+ADM0497,P10496,3,Male,D02,Cardiology,Acute Myocardial Infarction,Emergency,2026-10-20,2026-10-28,8,Semi-Private,Aarogyasri,79698,Improved,N
+ADM0498,P10497,3,Female,D06,Obstetrics & Gynaecology,Caesarean Section,Referral,2026-10-23,2026-10-31,8,Semi-Private,Self-Pay,30977,Recovered,Y
+ADM0499,P10498,54,Female,D04,Pediatrics,Pediatric Pneumonia,Emergency,2026-10-30,2026-11-02,3,Semi-Private,Private Insurance,22257,Recovered,N
+ADM0500,P10499,20,Male,D01,General Medicine,Typhoid Fever,Emergency,2026-10-21,2026-10-23,2,Semi-Private,Self-Pay,38916,Recovered,N
+ADM0501,P10500,18,Male,D03,Orthopedics,Road Traffic Injury,Referral,2026-10-08,2026-10-13,5,ICU,Private Insurance,34467,Recovered,N
+ADM0502,P10501,20,Female,D03,Orthopedics,Osteoarthritis,Referral,2026-10-23,2026-10-27,4,General,Aarogyasri,95760,Recovered,N
+ADM0503,P10502,14,Male,D05,Neurology,Migraine,Emergency,2026-10-24,2026-10-30,6,Semi-Private,Self-Pay,11184,Improved,N
+ADM0504,P10503,21,Female,D03,Orthopedics,Fracture of Radius/Ulna,Elective,2026-10-23,2026-10-25,2,ICU,Self-Pay,66149,Improved,N
+ADM0505,P10504,83,Male,D05,Neurology,Migraine,Emergency,2026-10-01,2026-10-08,7,General,Self-Pay,29350,Improved,N
+ADM0506,P10505,53,Female,D03,Orthopedics,Osteoarthritis,Emergency,2026-10-22,2026-10-29,7,General,Aarogyasri,83330,Recovered,N
+ADM0507,P10506,90,Male,D02,Cardiology,Coronary Artery Disease,Emergency,2026-11-28,2026-12-09,11,Private,Self-Pay,17936,Recovered,N
+ADM0508,P10507,4,Female,D01,General Medicine,Pneumonia,Elective,2026-11-02,2026-11-04,2,General,Self-Pay,43763,Improved,Y
+ADM0509,P10508,50,Male,D06,Obstetrics & Gynaecology,PCOD,Elective,2026-11-23,2026-11-29,6,Semi-Private,Private Insurance,27925,Referred,N
+ADM0510,P10509,38,Male,D05,Neurology,Stroke,Emergency,2026-11-02,2026-11-07,5,General,Govt. Employee Scheme,70528,Recovered,N
+ADM0511,P10510,12,Female,D01,General Medicine,Typhoid Fever,Emergency,2026-11-27,2026-11-30,3,Semi-Private,Aarogyasri,63658,Improved,N
+ADM0512,P10511,24,Male,D04,Pediatrics,Pediatric Pneumonia,Emergency,2026-11-13,2026-11-14,1,General,Aarogyasri,39392,Referred,N
+ADM0513,P10512,56,Male,D03,Orthopedics,Fracture of Radius/Ulna,Referral,2026-11-12,2026-11-22,10,Semi-Private,Self-Pay,82049,Improved,N
+ADM0514,P10513,33,Male,D03,Orthopedics,Osteoarthritis,Emergency,2026-11-10,2026-11-19,9,Semi-Private,Govt. Employee Scheme,94831,Recovered,N
+ADM0515,P10514,8,Female,D03,Orthopedics,Back Pain,Emergency,2026-11-09,2026-11-10,1,General,Private Insurance,66564,Improved,N
+ADM0516,P10515,49,Female,D04,Pediatrics,Neonatal Jaundice,Elective,2026-11-14,2026-11-20,6,General,Aarogyasri,15952,Improved,Y
+ADM0517,P10516,63,Male,D02,Cardiology,Heart Failure,Emergency,2026-11-13,2026-11-16,3,General,Self-Pay,20160,Recovered,N
+ADM0518,P10517,20,Female,D02,Cardiology,Heart Failure,Elective,2026-11-06,2026-11-10,4,Private,Self-Pay,40957,Recovered,N
+ADM0519,P10518,34,Male,D03,Orthopedics,Road Traffic Injury,Emergency,2026-11-16,2026-11-21,5,Semi-Private,Aarogyasri,90419,Recovered,N
+ADM0520,P10519,72,Female,D06,Obstetrics & Gynaecology,Pregnancy Complication,Emergency,2026-11-03,2026-11-06,3,ICU,Self-Pay,76870,Improved,N
+ADM0521,P10520,41,Female,D01,General Medicine,Diabetes Mellitus,Referral,2026-11-18,2026-11-21,3,Private,Aarogyasri,24150,Recovered,N
+ADM0522,P10521,46,Male,D03,Orthopedics,Fracture of Radius/Ulna,Emergency,2026-11-14,2026-11-19,5,ICU,Self-Pay,15930,Recovered,N
+ADM0523,P10522,31,Male,D05,Neurology,Stroke,Emergency,2026-11-14,2026-11-20,6,Semi-Private,Self-Pay,44856,Recovered,N
+ADM0524,P10523,60,Male,D03,Orthopedics,Fracture of Femur,Elective,2026-11-13,2026-11-14,1,ICU,Private Insurance,17469,Recovered,N
+ADM0525,P10524,61,Male,D05,Neurology,Neuropathy,Emergency,2026-11-07,2026-11-14,7,Private,Aarogyasri,58580,Referred,N
+ADM0526,P10525,47,Female,D01,General Medicine,Hypertension,Elective,2026-11-26,2026-12-03,7,General,Aarogyasri,15796,Recovered,N
+ADM0527,P10526,82,Female,D02,Cardiology,Coronary Artery Disease,Emergency,2026-11-12,2026-11-19,7,General,Aarogyasri,52813,Improved,Y
+ADM0528,P10527,62,Male,D05,Neurology,Neuropathy,Emergency,2026-11-10,2026-11-11,1,General,Self-Pay,61889,Recovered,N
+ADM0529,P10528,19,Female,D02,Cardiology,Heart Failure,Elective,2026-11-04,2026-11-10,6,General,Self-Pay,34713,Recovered,N
+ADM0530,P10529,37,Female,D03,Orthopedics,Road Traffic Injury,Referral,2026-11-03,2026-11-08,5,General,Aarogyasri,64869,Improved,N
+ADM0531,P10530,63,Male,D03,Orthopedics,Osteoarthritis,Emergency,2026-11-23,2026-11-28,5,General,Self-Pay,30591,Improved,N
+ADM0532,P10531,2,Male,D04,Pediatrics,Pediatric Pneumonia,Emergency,2026-11-25,2026-11-29,4,ICU,Aarogyasri,80704,Improved,N
+ADM0533,P10532,3,Female,D04,Pediatrics,Bronchiolitis,Emergency,2026-11-25,2026-11-27,2,General,Private Insurance,86025,LAMA,N
+ADM0534,P10533,72,Female,D01,General Medicine,Pneumonia,Emergency,2026-11-08,2026-11-11,3,General,Self-Pay,15758,LAMA,N
+ADM0535,P10534,29,Male,D03,Orthopedics,Road Traffic Injury,Emergency,2026-11-14,2026-11-16,2,Semi-Private,Govt. Employee Scheme,55895,Recovered,N
+ADM0536,P10535,35,Female,D04,Pediatrics,Bronchiolitis,Emergency,2026-11-05,2026-11-10,5,General,Aarogyasri,50005,Recovered,N
+ADM0537,P10536,15,Male,D03,Orthopedics,Fracture of Femur,Referral,2026-11-02,2026-11-06,4,General,Aarogyasri,39481,Improved,N
+ADM0538,P10537,1,Female,D01,General Medicine,Viral Fever,Emergency,2026-11-11,2026-11-14,3,Semi-Private,Aarogyasri,77308,Recovered,Y
+ADM0539,P10538,38,Male,D06,Obstetrics & Gynaecology,Normal Vaginal Delivery,Emergency,2026-11-26,2026-12-02,6,ICU,Aarogyasri,72394,Improved,Y
+ADM0540,P10539,31,Male,D03,Orthopedics,Back Pain,Elective,2026-11-30,2026-12-05,5,General,Self-Pay,41052,Recovered,N
+ADM0541,P10540,28,Male,D03,Orthopedics,Road Traffic Injury,Elective,2026-11-26,2026-12-05,9,Private,Self-Pay,72398,Recovered,N
+ADM0542,P10541,34,Male,D02,Cardiology,Coronary Artery Disease,Emergency,2026-11-18,2026-11-27,9,Private,Private Insurance,76328,Improved,N
+ADM0543,P10542,23,Male,D01,General Medicine,Diabetes Mellitus,Emergency,2026-11-26,2026-11-28,2,Private,Private Insurance,33147,Recovered,N
+ADM0544,P10543,51,Female,D01,General Medicine,Dengue Fever,Emergency,2026-11-20,2026-11-27,7,Semi-Private,Private Insurance,62999,Recovered,N
+ADM0545,P10544,40,Female,D01,General Medicine,Dengue Fever,Emergency,2026-11-09,2026-11-16,7,General,Govt. Employee Scheme,27150,LAMA,Y
+ADM0546,P10545,44,Male,D01,General Medicine,Hypertension,Emergency,2026-11-27,2026-12-05,8,General,Aarogyasri,68819,Recovered,Y
+ADM0547,P10546,44,Male,D04,Pediatrics,Bronchiolitis,Elective,2026-11-24,2026-12-02,8,Semi-Private,Private Insurance,83668,Improved,N
+ADM0548,P10547,12,Female,D01,General Medicine,Viral Fever,Elective,2026-11-30,2026-12-04,4,Semi-Private,Aarogyasri,53998,Improved,N
+ADM0549,P10548,3,Male,D06,Obstetrics & Gynaecology,Pregnancy Complication,Elective,2026-11-02,2026-11-08,6,ICU,Aarogyasri,5915,Recovered,N
+ADM0550,P10549,81,Female,D02,Cardiology,Heart Failure,Referral,2026-11-15,2026-11-20,5,Semi-Private,Aarogyasri,32302,Referred,N
+ADM0551,P10550,48,Female,D04,Pediatrics,Bronchiolitis,Elective,2026-11-30,2026-12-04,4,General,Aarogyasri,64417,Recovered,N
+ADM0552,P10551,58,Male,D05,Neurology,Epilepsy,Elective,2026-11-28,2026-12-03,5,General,Aarogyasri,87021,Recovered,N
+ADM0553,P10552,52,Male,D01,General Medicine,Diabetes Mellitus,Emergency,2026-11-25,2026-12-04,9,ICU,Self-Pay,99666,Referred,N
+ADM0554,P10553,52,Female,D03,Orthopedics,Fracture of Radius/Ulna,Emergency,2026-11-14,2026-11-18,4,Semi-Private,Private Insurance,97186,Improved,N
+ADM0555,P10554,57,Male,D04,Pediatrics,Neonatal Jaundice,Emergency,2026-11-07,2026-11-16,9,General,Self-Pay,23805,Recovered,N
+ADM0556,P10555,61,Female,D01,General Medicine,Typhoid Fever,Elective,2026-11-22,2026-11-25,3,General,Aarogyasri,25260,Recovered,N
+ADM0557,P10556,60,Female,D02,Cardiology,Coronary Artery Disease,Emergency,2026-12-04,2026-12-13,9,General,Govt. Employee Scheme,91324,Improved,N
+ADM0558,P10557,5,Female,D01,General Medicine,Hypertension,Emergency,2026-12-08,2026-12-11,3,General,Private Insurance,42867,Recovered,N
+ADM0559,P10558,68,Male,D02,Cardiology,Coronary Artery Disease,Elective,2026-12-05,2026-12-10,5,General,Govt. Employee Scheme,31392,Recovered,Y
+ADM0560,P10559,52,Male,D04,Pediatrics,Pediatric Pneumonia,Referral,2026-12-05,2026-12-08,3,General,Self-Pay,87149,Improved,N
+ADM0561,P10560,36,Male,D04,Pediatrics,Gastroenteritis,Emergency,2026-12-25,2027-01-01,7,Private,Aarogyasri,12138,Recovered,N
+ADM0562,P10561,31,Female,D04,Pediatrics,Neonatal Jaundice,Emergency,2026-12-05,2026-12-11,6,Private,Private Insurance,89815,Deceased,N
+ADM0563,P10562,64,Male,D05,Neurology,Epilepsy,Emergency,2026-12-26,2026-12-30,4,General,Self-Pay,96081,Recovered,N
+ADM0564,P10563,38,Male,D02,Cardiology,Coronary Artery Disease,Elective,2026-12-12,2026-12-17,5,Private,Aarogyasri,40091,Recovered,N
+ADM0565,P10564,19,Male,D05,Neurology,Stroke,Emergency,2026-12-10,2026-12-13,3,Semi-Private,Self-Pay,85713,LAMA,N
+ADM0566,P10565,27,Male,D03,Orthopedics,Road Traffic Injury,Emergency,2026-12-18,2026-12-20,2,ICU,Govt. Employee Scheme,77346,Recovered,Y
+ADM0567,P10566,31,Female,D01,General Medicine,Viral Fever,Referral,2026-12-01,2026-12-06,5,General,Private Insurance,80894,Recovered,N
+ADM0568,P10567,50,Male,D06,Obstetrics & Gynaecology,Caesarean Section,Emergency,2026-12-20,2026-12-28,8,Private,Self-Pay,80863,Improved,Y
+ADM0569,P10568,83,Female,D01,General Medicine,Dengue Fever,Emergency,2026-12-22,2026-12-27,5,General,Aarogyasri,84782,Recovered,N
+ADM0570,P10569,31,Male,D03,Orthopedics,Fracture of Radius/Ulna,Emergency,2026-12-07,2026-12-10,3,General,Aarogyasri,77186,Recovered,N
+ADM0571,P10570,53,Male,D03,Orthopedics,Osteoarthritis,Emergency,2026-12-20,2026-12-25,5,General,Self-Pay,36779,Recovered,Y
+ADM0572,P10571,41,Female,D04,Pediatrics,Gastroenteritis,Elective,2026-12-06,2026-12-14,8,General,Aarogyasri,60307,Recovered,N
+ADM0573,P10572,2,Male,D04,Pediatrics,Febrile Seizure,Emergency,2026-12-07,2026-12-12,5,Semi-Private,Private Insurance,56172,Recovered,N
+ADM0574,P10573,58,Male,D01,General Medicine,Viral Fever,Emergency,2026-12-08,2026-12-11,3,Semi-Private,Private Insurance,45333,Recovered,N
+ADM0575,P10574,56,Male,D04,Pediatrics,Neonatal Jaundice,Emergency,2026-12-10,2026-12-18,8,General,Private Insurance,77831,Recovered,N
+ADM0576,P10575,17,Male,D02,Cardiology,Acute Myocardial Infarction,Elective,2026-12-02,2026-12-07,5,General,Govt. Employee Scheme,98576,Referred,N
+ADM0577,P10576,60,Male,D02,Cardiology,Arrhythmia,Emergency,2026-12-04,2026-12-11,7,Semi-Private,Self-Pay,97552,Recovered,N
+ADM0578,P10577,71,Male,D04,Pediatrics,Pediatric Pneumonia,Emergency,2026-12-01,2026-12-03,2,Private,Aarogyasri,57310,Deceased,N
+ADM0579,P10578,23,Male,D03,Orthopedics,Road Traffic Injury,Referral,2026-12-11,2026-12-19,8,General,Aarogyasri,50866,Recovered,N
+ADM0580,P10579,71,Female,D06,Obstetrics & Gynaecology,Pregnancy Complication,Referral,2026-12-27,2027-01-02,6,Private,Private Insurance,17450,Recovered,N
+ADM0581,P10580,78,Female,D04,Pediatrics,Neonatal Jaundice,Emergency,2026-12-17,2026-12-20,3,General,Aarogyasri,70204,Improved,N
+ADM0582,P10581,68,Male,D02,Cardiology,Acute Myocardial Infarction,Emergency,2026-12-10,2026-12-19,9,Private,Self-Pay,41780,Recovered,N
+ADM0583,P10582,13,Male,D02,Cardiology,Heart Failure,Emergency,2026-12-14,2026-12-19,5,General,Self-Pay,93972,Recovered,N
+ADM0584,P10583,35,Female,D01,General Medicine,Diabetes Mellitus,Referral,2026-12-10,2026-12-11,1,ICU,Private Insurance,92691,Recovered,N
+ADM0585,P10584,54,Female,D03,Orthopedics,Fracture of Femur,Elective,2026-12-16,2026-12-23,7,Semi-Private,Self-Pay,25441,Recovered,N
+ADM0586,P10585,3,Female,D06,Obstetrics & Gynaecology,PCOD,Elective,2026-12-02,2026-12-04,2,ICU,Private Insurance,25103,Recovered,N
+ADM0587,P10586,89,Female,D01,General Medicine,Pneumonia,Emergency,2026-12-18,2026-12-21,3,Private,Private Insurance,45340,Recovered,N
+ADM0588,P10587,38,Male,D06,Obstetrics & Gynaecology,PCOD,Emergency,2026-12-05,2026-12-09,4,Semi-Private,Aarogyasri,42464,Recovered,N
+ADM0589,P10588,83,Female,D02,Cardiology,Acute Myocardial Infarction,Emergency,2026-12-26,2026-12-31,5,Private,Govt. Employee Scheme,81802,Recovered,N
+ADM0590,P10589,29,Male,D01,General Medicine,Hypertension,Emergency,2026-12-25,2026-12-28,3,ICU,Private Insurance,90215,Improved,N
+ADM0591,P10590,44,Female,D01,General Medicine,Pneumonia,Emergency,2026-12-11,2026-12-18,7,General,Govt. Employee Scheme,20192,Recovered,N
+ADM0592,P10591,68,Male,D01,General Medicine,Hypertension,Emergency,2026-12-27,2026-12-28,1,Semi-Private,Self-Pay,104445,Recovered,N
+ADM0593,P10592,72,Male,D02,Cardiology,Heart Failure,Emergency,2026-12-20,2026-12-27,7,General,Self-Pay,41048,Improved,N
+ADM0594,P10593,29,Female,D06,Obstetrics & Gynaecology,Pregnancy Complication,Emergency,2026-12-15,2026-12-19,4,Private,Aarogyasri,49030,Recovered,N
+ADM0595,P10594,46,Male,D01,General Medicine,Hypertension,Emergency,2026-12-05,2026-12-14,9,General,Private Insurance,80171,Recovered,N
+ADM0596,P10595,55,Male,D03,Orthopedics,Fracture of Radius/Ulna,Emergency,2026-12-22,2026-12-26,4,General,Private Insurance,88992,Recovered,N
+ADM0597,P10596,2,Male,D01,General Medicine,Dengue Fever,Elective,2026-12-22,2026-12-29,7,General,Self-Pay,71159,Improved,N
+ADM0598,P10597,70,Female,D03,Orthopedics,Back Pain,Emergency,2026-12-15,2026-12-22,7,Semi-Private,Private Insurance,94146,Recovered,N
+ADM0599,P10598,23,Female,D04,Pediatrics,Gastroenteritis,Emergency,2026-12-27,2026-12-29,2,Semi-Private,Aarogyasri,13659,Improved,N
+ADM0600,P10599,49,Female,D03,Orthopedics,Road Traffic Injury,Elective,2026-12-15,2026-12-24,9,General,Self-Pay,85043,Improved,Y

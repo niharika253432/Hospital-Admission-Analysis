@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hospital Admission Analysis</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<div class="shell">
+<header><div class="brand"><span class="logo">✚</span><div><h1>Hospital Admission Analysis</h1><p>Admission trends · Patient utilization · Financial insights</p></div></div><span class="live">● DATA DASHBOARD</span></header>
+<section class="intro"><div><p class="eyebrow">HOSPITAL DATA ANALYTICS</p><h2>Admission overview</h2><p>Explore hospital admissions, department workload, stay duration, diagnoses and payer billing from one dashboard.</p></div></section>
+<section class="cards"><div class="metric"><span>Total Admissions</span><strong id="admissions">—</strong><small>Hospital records</small></div><div class="metric"><span>Total Bed-days</span><strong id="bedDays">—</strong><small>Combined stay duration</small></div><div class="metric"><span>Total Billing</span><strong id="billing">—</strong><small>INR billed</small></div><div class="metric"><span>Average Stay</span><strong id="avgStay">—</strong><small>Days per admission</small></div></section>
+<section class="grid"><article class="panel wide"><div class="panelhead"><h3>Monthly Admissions & 3-Month Rolling Average</h3><span>Monthly trend</span></div><canvas id="monthlyChart"></canvas></article><article class="panel"><div class="panelhead"><h3>Department Workload</h3><span>Admissions</span></div><canvas id="deptChart"></canvas></article><article class="panel"><div class="panelhead"><h3>Age Group Utilization</h3><span>Patients</span></div><canvas id="ageChart"></canvas></article><article class="panel"><div class="panelhead"><h3>Admission Risk Categories</h3><span>Rule-based score</span></div><canvas id="riskChart"></canvas></article><article class="panel"><div class="panelhead"><h3>Payer Billing</h3><span>INR</span></div><canvas id="payerChart"></canvas></article><article class="panel wide"><div class="panelhead"><h3>Top Diagnoses</h3><span>Admission count</span></div><canvas id="diagnosisChart"></canvas></article><article class="panel wide"><div class="panelhead"><h3>Longest Hospital Stays</h3><span>Top 10 records</span></div><div class="tablewrap"><table><thead><tr><th>Admission ID</th><th>Age</th><th>Department</th><th>Diagnosis</th><th>Stay (days)</th><th>Type</th></tr></thead><tbody id="longestTable"></tbody></table></div></article></section>
+<footer>Academic project demo · Synthetic admission data · Risk score is educational and not a clinical decision tool</footer>
+</div><script src="{{ url_for('static', filename='script.js') }}"></script></body></html>
